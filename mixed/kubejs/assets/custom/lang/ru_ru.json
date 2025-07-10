@@ -1,0 +1,502 @@
+{
+  "origin.custom.master.name": "Мастер",
+  "origin.custom.master.description": "",
+
+  "origin.custom.chimera.name": "Химера",
+  "origin.custom.chimera.description": "",
+
+  "origin.custom.half-blood_ender.name": "Эндер-полукровка",
+  "origin.custom.half-blood_ender.description": "",
+
+  "origin.custom.mole.name": "Крот",
+  "origin.custom.mole.description": "Идеально подойдет для шахтерства и исследований в пещерах",
+
+  "origin.custom.phantom.name": "Фантом",
+  "origin.custom.phantom.description": "",
+
+  "origin.custom.statue.name": "Статуя",
+  "origin.custom.statue.description": "",
+
+  "origin.custom.hermit.name": "Бирюк",
+  "origin.custom.hermit.description": "",
+
+  "origin.custom.ghost.name": "Призрак",
+  "origin.custom.ghost.description": "",
+
+  "quests.shop.origins.name": "Смена расы",
+  "quests.shop.origins.sub": "Если бы в жизни все было так просто",
+
+  "quests.community.legend.name": "Легенда",
+  "quests.community.legend.sub": "Открой меня чтобы узнать что тут происходит",
+
+  "quests.community.bug_hunter.name": "Багхантер",
+  "quests.community.bug_hunter.sub": "Найдите и зарепорьте баг",
+
+  "quests.community.bug_abuser.name": "Пидорас",
+  "quests.community.bug_abuser.sub": "Тебе должно быть стыдно.",
+
+  "quests.community.bug_fixer.name": "Багфиксер?",
+  "quests.community.bug_fixer.sub": "Почините его?",
+
+  "quests.community.event_idea.name": "Светлая голова",
+  "quests.community.event_idea.sub": "Придумайте такой эвент, который попадет сюда",
+
+  "quests.community.event_driver.name": "Амбасаддор сервера",
+  "quests.community.event_driver.sub": "Придумайте и проведите эвент?",
+
+  "quests.community.quest_idea.name": "Я и есть ГПТ",
+  "quests.community.quest_idea.sub": "Придумайте квест/линию квестов которые попадут сюда",
+
+  "quests.community.quest_driver.name": "...",
+  "quests.community.quest_driver.sub": "А потом сделайте его...",
+
+  "quests.community.most_wanted.name": "Миньоны ничего не делали",
+  "quests.community.most_wanted.sub": "Станьте самым ненавистным игроком на сервере",
+
+  "quests.community.most_alive.name": "Самый живучий",
+  "quests.community.most_alive.sub": "Упади 715 раз, но встань 716 раз",
+
+  "quests.community.most_stupid_death.name": "Премия дарвина",
+  "quests.community.most_stupid_death.sub": "Умрите самым глупым способом",
+
+  "quests.community.spy.name": "I'm on a quest",
+  "quests.community.spy.sub": "Сфоткайте каждого игрока",
+
+  "quests.community.class_idea.name": "Неоригинально",
+  "quests.community.class_idea.sub": "Придумайте расу/класс которая попадет в игру",
+
+  "quests.community.class_driver.name": "Уже хоть что-то",
+  "quests.community.class_driver.sub": "Реализуйте класс сами.",
+
+  "quests.community.building_monumental.name": "Монументальное строительство",
+  "quests.community.building_monumental.sub": "Построить что-то выдающиеся",
+
+  "quests.community.building_service.name": "Служебно строительство",
+  "quests.community.building_service.sub": "Постройка является популярным местом сбора игроков",
+
+  "quests.community.building_community.name": "Строительство для всех",
+  "quests.community.building_community.sub": "Постройка стала незаменимым местом, каждый игрок стал пользоватся ею",
+
+  "quests.collections.armor_overworld.name": "Броня: Внешний мир",
+  "quests.collections.armor_overworld.sub": "Соберите броню из основного мира",
+
+  "quests.collections.armor_nether.name": "Броня: Незер",
+  "quests.collections.armor_nether.sub": "Соберите броню из незера",
+
+  "quests.collections.armor_end.name": "Броня: Край",
+  "quests.collections.armor_end.sub": "Соберите броню из края",
+
+  "quests.collections.armor_master.name": "Броня: Мастер",
+  "quests.collections.armor_master.sub": "Соберите всю возможную броню",
+
+  "quests.collections.artifacts.name": "Артефакты",
+  "quests.collections.artifacts.sub": "Соберите все артефакты",
+
+  "quests.collections.axes_master.name": "Топоры",
+  "quests.collections.axes_master.sub": "Соберите все топоры",
+
+  "quests.collections.master.name": "Колекционер",
+  "quests.collections.master.sub": "Респект от админа",
+
+  "quests.collections.discs_vanilla.name": "Диски: Ванилла",
+  "quests.collections.discs_vanilla.sub": "Соберите все диски из оригинальной игры",
+
+  "quests.collections.discs_better_end.name": "Диски: Better End",
+  "quests.collections.discs_better_end.sub": "Соберите все диски из дополнения Better End",
+
+  "quests.collections.discs_master.name": "Диски: Мастер",
+  "quests.collections.discs_master.sub": "Соберите все возможные диски",
+
+  "quests.collections.discs_tricky_trials.name": "Диски: Tricky Trials",
+  "quests.collections.discs_tricky_trials.sub": "Соберите все диски из дополнения Tricky Trials",
+
+  "quests.collections.equipment_master.name": "Снаряжение: Мастер",
+  "quests.collections.equipment_master.sub": "Соберите все возможное снаряжение",
+
+  "quests.collections.pickaxes_master.name": "Кирки",
+  "quests.collections.pickaxes_master.sub": "Соберите все кирки",
+
+  "quests.collections.plushes.name": "Плюши",
+  "quests.collections.plushes.sub": "Соберите всех плюшей",
+
+  "quests.collections.shovels_master.name": "Лопаты",
+  "quests.collections.shovels_master.sub": "Соберите все лопаты",
+
+  "quests.collections.swords_master.name": "Мечи",
+  "quests.collections.swords_master.sub": "Соберите все мечи",
+
+  "quests.collections.traveller_master.name": "Даша Путешественница",
+  "quests.collections.traveller_master.sub": "Соберите карты со всех измерений",
+
+  "quests.collections.traveller_overworld.name": "Путешественник",
+  "quests.collections.traveller_overworld.sub": "Соберите всю карту внешнего мира",
+
+  "quests.collections.traveller_nether.name": "Путешественник: Незер",
+  "quests.collections.traveller_nether.sub": "Соберите всю карту незера",
+
+  "quests.collections.traveller_end.name": "Путешественник: Край",
+  "quests.collections.traveller_end.sub": "Соберите всю карту края",
+
+  "quests.overworld.overworld_wood.name": "Теперь это война",
+  "quests.overworld.overworld_wood.sub": "Соберите всю древисину с внешнего мира",
+
+  "quests.overworld.iron.name": "Горячо! Не трогать!",
+  "quests.overworld.iron.sub": "Получите первое железо",
+
+  "quests.overworld.igloo.name": "Иглу?",
+  "quests.overworld.igloo.sub": "Слово странное просто",
+
+  "quests.overworld.exotic_eye.name": "Экзотический глаз",
+  "quests.overworld.exotic_eye.sub": "Из говна и палок",
+
+  "quests.overworld.mineshaft.name": "Отголоски прошлого",
+  "quests.overworld.mineshaft.sub": "Посетите заброшенные шахты",
+
+  "quests.overworld.guardian_eye.name": "Глаз стража",
+  "quests.overworld.guardian_eye.sub": "Хаха, теперь он одноглазый, ой.....",
+
+  "quests.overworld.villager_trade.name": "По моему меня нае**ли",
+  "quests.overworld.villager_trade.sub": "Только шапки не хватает",
+
+  "quests.overworld.stronghold.name": "Finis Coronat Opus",
+  "quests.overworld.stronghold.sub": "Посетите крепость",
+
+  "quests.overworld.old_eye.name": "Древнее Око",
+  "quests.overworld.old_eye.sub": "Видело как падали и становились цивилизации",
+
+  "quests.overworld.create_nether_portal.name": "Разочарование",
+  "quests.overworld.create_nether_portal.sub": "Пока нельзя, но скоро будет можно",
+
+  "quests.overworld.evil_eye.name": "Это точно талисман?",
+  "quests.overworld.evil_eye.sub": "Ответ: Нет",
+
+  "quests.overworld.dispenser.name": "Блины с лопаты",
+  "quests.overworld.dispenser.sub": "Сделайте раздатчик",
+
+  "quests.overworld.overworld.name": "Здраствуйте мистер Фримен",
+  "quests.overworld.overworld.sub": "Подключиться на сервер",
+
+  "quests.overworld.boat.name": "Голандцы",
+  "quests.overworld.boat.sub": "Сделайте лодку? Это точно нужно пояснять?",
+
+  "quests.overworld.overworld_biomes.name": "За 80 дней",
+  "quests.overworld.overworld_biomes.sub": "Побывайте во всех биомах",
+
+  "quests.overworld.tnt.name": "\"TNT\"",
+  "quests.overworld.tnt.sub": "I came to dig, dig dig",
+
+  "quests.overworld.treasure_map.name": "Помогите Даше найти клад",
+  "quests.overworld.treasure_map.sub": "Найдите клад",
+
+  "quests.overworld.witch_eye.name": "\"irisu_06\"",
+  "quests.overworld.witch_eye.sub": "Получите Глаз Ведьмы",
+
+  "quests.overworld.undead_eye.name": "Глаз нежити",
+  "quests.overworld.undead_eye.sub": "Видит души",
+
+  "quests.overworld.piston.name": "В Create'е лучше",
+  "quests.overworld.piston.sub": "Сделайте поршень",
+
+  "quests.overworld.crafting_table.name": "Мастер поделок",
+  "quests.overworld.crafting_table.sub": "Получите свой первый верстак",
+
+  "quests.overworld.diamond_pickaxe.name": "Кольская сверхглубокая",
+  "quests.overworld.diamond_pickaxe.sub": "Получите алмазную кирку",
+
+  "quests.overworld.heart_of_the_sea.name": "Жалкая пародия на Аквамена",
+  "quests.overworld.heart_of_the_sea.sub": "Найдите сердце море",
+
+  "quests.overworld.pillager_outpost.name": "Сборище разодетых",
+  "quests.overworld.pillager_outpost.sub": "Посетите аванпост пилладжеров",
+
+  "quests.overworld.mystery_eye_garant.name": "Утешительный приз",
+  "quests.overworld.mystery_eye_garant.sub": "Мистическое Око",
+
+  "quests.overworld.observer.name": "1984",
+  "quests.overworld.observer.sub": "Сделайте Наблюдатель",
+
+  "quests.overworld.create_end_portal.name": "Делов то...",
+  "quests.overworld.create_end_portal.sub": "Откройте портал в Край",
+
+  "quests.overworld.corrupted_eye.name": "Срок годности вышел",
+  "quests.overworld.corrupted_eye.sub": "Получите Испорченное Око",
+
+  "quests.overworld.comparator.name": "1 > 2",
+  "quests.overworld.comparator.sub": "Сделайте компаратор",
+
+  "quests.overworld.desert_temple.name": "Фараон",
+  "quests.overworld.desert_temple.sub": "Посетите пирамиды",
+
+  "quests.overworld.enchanting.name": "\"Mesmerizer\"",
+  "quests.overworld.enchanting.sub": "А чарует то как",
+
+  "quests.overworld.villager_cure.name": "Вакцина",
+  "quests.overworld.villager_cure.sub": "Побочка: Понос",
+
+  "quests.overworld.shipwreck.name": "Титаник пал",
+  "quests.overworld.shipwreck.sub": "Найдите кораблекрушение",
+
+  "quests.overworld.black_eye.name": "Темное око",
+  "quests.overworld.black_eye.sub": "Шоколадное око капитана Джека Воробея",
+
+  "quests.overworld.furnace.name": "Жаль, это не печи 40 годов",
+  "quests.overworld.furnace.sub": "Получите печку",
+
+  "quests.overworld.gold.name": "\"We're rich!\"",
+  "quests.overworld.gold.sub": "Ебучие гномы",
+
+  "quests.overworld.repeater.name": "Попробуй еще раз",
+  "quests.overworld.repeater.sub": "Сделайте повторитель",
+
+  "quests.overworld.diamond_armor.name": "Осыпь меня алмазами",
+  "quests.overworld.diamond_armor.sub": "Пусть она служит тебе верой и правдой",
+
+  "quests.overworld.emeralds.name": "И зачем он тебе?",
+  "quests.overworld.emeralds.sub": "Получите изумруды",
+
+  "quests.overworld.redstone_torch.name": "Этот свет вреден для кожи",
+  "quests.overworld.redstone_torch.sub": "Сделайте редстоуновый факел",
+
+  "quests.overworld.magic_eye.name": "Магическое око",
+  "quests.overworld.magic_eye.sub": "Опять казино...",
+
+  "quests.overworld.hermit_eye.name": "Дурачек не вернулся",
+  "quests.overworld.hermit_eye.sub": "Получите око изгоя",
+
+  "quests.overworld.guardian_eye_garant.name": "Утешительный Приз",
+  "quests.overworld.guardian_eye_garant.sub": "Глаз Стража",
+
+  "quests.overworld.ocean_monument.name": "Атлантида?",
+  "quests.overworld.ocean_monument.sub": "Посетите подводный монумент",
+
+  "quests.overworld.lost_eye.name": "Lost",
+  "quests.overworld.lost_eye.sub": "Получите Потерянное Око",
+
+  "quests.overworld.obsidian.name": "\"Through The Fire and Flames\"",
+  "quests.overworld.obsidian.sub": "Получите обсидиан",
+
+  "quests.overworld.wood.name": "Зеленые это не одобряют",
+  "quests.overworld.wood.sub": "Добыть дерево",
+
+  "quests.overworld.iron_pickaxe.name": "Друг шахтера",
+  "quests.overworld.iron_pickaxe.sub": "Получите железную кирку",
+
+  "quests.overworld.diamond.name": "Алмазы!",
+  "quests.overworld.diamond.sub": "ПЕРВЫЕ, РОДНЕНЬКИЕ АЛМАЗИКИ",
+
+  "quests.overworld.mansion.name": "Тот самый дворец",
+  "quests.overworld.mansion.sub": "Осталось выпустить \"расследование\"",
+
+  "quests.overworld.jungle_temple.name": "Храм Ацтеков",
+  "quests.overworld.jungle_temple.sub": "Посетите джунглийский храм",
+
+  "quests.overworld.frost_eye.name": "Ледянное Око",
+  "quests.overworld.frost_eye.sub": "Передержал в морозилке",
+
+  "quests.overworld.redstone.name": "Электричество в каждый дом",
+  "quests.overworld.redstone.sub": "Полуичте редстоун",
+
+  "quests.overworld.mystery_eye.name": "Мистическое Око?",
+  "quests.overworld.mystery_eye.sub": "Ебанное казино...",
+
+  "quests.overworld.monster_hunter.name": "Охотник на монстров",
+  "quests.overworld.monster_hunter.sub": "Теперь они боятся тебя",
+
+  "quests.overworld.trident.name": "Жалкая пародия на Посейдона",
+  "quests.overworld.trident.sub": "Получите трезубец",
+
+  "quests.nether.netherite.name": "Древняя технология",
+  "quests.nether.netherite.sub": "Вы получили свой первый слиток из незерита",
+
+  "quests.nether.wither_skull.name": "И зачем я её подобрал...",
+  "quests.nether.wither_skull.sub": "Получите череп скелета-иссушителя",
+
+  "quests.nether.blaze_rod.name": "Остынь приятель",
+  "quests.nether.blaze_rod.sub": "А вот и стержни",
+
+  "quests.nether.nether_ride.name": "Адский скакун",
+  "quests.nether.nether_ride.sub": "Прокатиться на лавомерке используя удочки с искаженным грибом",
+
+  "quests.nether.piglin_trade.name": "Честный обмен",
+  "quests.nether.piglin_trade.sub": "Впервые поторговать с пиглином",
+
+  "quests.nether.alchemy.name": "Начинающий алхимик",
+  "quests.nether.alchemy.sub": "Я бы это не пил",
+
+  "quests.nether.ruby.name": "Это не тот красный камень",
+  "quests.nether.ruby.sub": "Получите рубины",
+
+  "quests.nether.ruby_armor.name": "Рубиновый воин",
+  "quests.nether.ruby_armor.sub": "У вас появился сет рубиновой брони",
+
+  "quests.nether.cincina_armor.name": "Все что блестит",
+  "quests.nether.cincina_armor.sub": "Вы получили полный комплект из цинцинназитовой брони",
+
+  "quests.nether.ruby_tools.name": "Ювелир",
+  "quests.nether.ruby_tools.sub": "Вы создали свой первый рубиновый инструмент",
+
+  "quests.nether.nether_wood.name": "Адский дровосек",
+  "quests.nether.nether_wood.sub": "Вы получили все 11 видов древесины в аду",
+
+  "quests.nether.crying_obsidian.name": "Особый крип",
+  "quests.nether.crying_obsidian.sub": "Получите плачущий обсидиан",
+
+  "quests.nether.cincina_forge.name": "Ты создал нвоую печь",
+  "quests.nether.cincina_forge.sub": "Да-да, именно из той самой руды",
+
+  "quests.nether.netherite_armor.name": "Прочнее алмаза",
+  "quests.nether.netherite_armor.sub": "Вы получили полный сет незеритовой брони",
+
+  "quests.nether.netherite_hoe.name": "Ну это уже перебор",
+  "quests.nether.netherite_hoe.sub": "Босс картошка уже тебя ждет.",
+
+  "quests.nether.cincina_diamond_cover.name": "Обновка?",
+  "quests.nether.cincina_diamond_cover.sub": "Покройте цин... Алмазами",
+
+  "quests.nether.nether.name": "Во все адские",
+  "quests.nether.nether.sub": "Наконец и ты тут оказался...",
+
+  "quests.nether.cincina_tools.name": "Цинцинназитовый мастер",
+  "quests.nether.cincina_tools.sub": "А вот и первый инструмент",
+
+  "quests.nether.ancient_debris.name": "Осколки древности",
+  "quests.nether.ancient_debris.sub": "Вы добыли древние обломки",
+
+  "quests.nether.wither_eye.name": "Око Иссушителя",
+  "quests.nether.wither_eye.sub": "А вот и еще одно око",
+
+  "quests.nether.repsawn_anchor.name": "Маяковский?",
+  "quests.nether.repsawn_anchor.sub": "Создать маяк возрождения",
+
+  "quests.nether.lodestone.name": "Манящий камень",
+  "quests.nether.lodestone.sub": "Связать компас и магнетит",
+
+  "quests.nether.nether_bastion.name": "Свиной дом",
+  "quests.nether.nether_bastion.sub": "Тут живут жадные свиньи",
+
+  "quests.nether.nether_fortress.name": "Адская крепость",
+  "quests.nether.nether_fortress.sub": "Выглядит устрашающе",
+
+  "quests.nether.nether_city.name": "Сектор газа",
+  "quests.nether.nether_city.sub": "Тут жить опасно",
+
+  "quests.nether.baseball.name": "Бейсболист мирового класса",
+  "quests.nether.baseball.sub": "Вернул гасту то, что ему принадлежит",
+
+  "quests.nether.nether_traveller.name": "Адский бегун",
+  "quests.nether.nether_traveller.sub": "Посетить 22 биома в аду",
+
+  "quests.nether.hell_eye.name": "Око Ада",
+  "quests.nether.hell_eye.sub": "Вы нашли его",
+
+  "quests.nether.cincina.name": "Ты добыл как её... ",
+  "quests.nether.cincina.sub": "цин.. цино... похуй короче, поздравляю",
+
+  "quests.nether.cincina_anvil.name": "Кузнец доволен",
+  "quests.nether.cincina_anvil.sub": "",
+
+  "quests.nether.wither.name": "Смуглый красавец",
+  "quests.nether.wither.sub": "Призовите визера",
+
+  "quests.nether.netherite_tools.name": "Древний инструмент",
+  "quests.nether.netherite_tools.sub": "Вы получили первый инструменст из незерита",
+
+  "quests.nether.lets_go_gambling.name": "LET'S GO GAMBLING",
+  "quests.nether.lets_go_gambling.sub": "",
+
+  "quests.end.eternal_magic.name": "Древняя магия",
+  "quests.end.eternal_magic.sub": "ХЗ?",
+
+  "quests.end.raw_breath.name": "Освежи дыхание",
+  "quests.end.raw_breath.sub": "Соберите дыхание дракона",
+
+  "quests.end.desolation.name": "Одиночество",
+  "quests.end.desolation.sub": "Посетите пустые земли",
+
+  "quests.end.crystaline_elytra.name": "Прямо с подиума",
+  "quests.end.crystaline_elytra.sub": "Неделя моды удалась успешно",
+
+  "quests.end.eternal_tropes.name": "Вечные тропы",
+  "quests.end.eternal_tropes.sub": "Сделайте свой портал из Края",
+
+  "quests.end.boing_cosplay.name": "Косплей Боинг-767",
+  "quests.end.boing_cosplay.sub": "Получите элитры",
+
+  "quests.end.crystaline_armor.name": "Кристалинновая броня",
+  "quests.end.crystaline_armor.sub": "Блестит, светится но не пердит",
+
+  "quests.end.tallas_armor.name": "броня, ок?",
+  "quests.end.tallas_armor.sub": "Получите талассиевую броню",
+
+  "quests.end.end_village.name": "Тут кто-то жил",
+  "quests.end.end_village.sub": "Найдите деревню в Краю",
+
+  "quests.end.tallas_tools.name": ":|",
+  "quests.end.tallas_tools.sub": "Получите талласиевый инструмент",
+
+  "quests.end.armor_of_the_end.name": "Жесткая насколько возможно",
+  "quests.end.armor_of_the_end.sub": "Получите этериевую броню",
+
+  "quests.end.cycle_repeats.name": "Дежавю",
+  "quests.end.cycle_repeats.sub": "Повторите цикл",
+
+  "quests.end.the_end.name": "Земли дальше",
+  "quests.end.the_end.sub": "Выберитесь с главного острова",
+
+  "quests.end.tools_of_the_end.name": "Все еще лучше алмазов",
+  "quests.end.tools_of_the_end.sub": "Получите Этериевый инсрумент",
+
+  "quests.end.dreadful_hate.name": "Hotline",
+  "quests.end.dreadful_hate.sub": "Do You Like Hurting Other People?",
+
+  "quests.end.end_biomes.name": "Agnus Dei",
+  "quests.end.end_biomes.sub": "Посетите все биомы Края",
+
+  "quests.end.start_of_the_end.name": "Начало конца",
+  "quests.end.start_of_the_end.sub": "Посетите Энд",
+
+  "quests.end.terminite_armor.name": "В цвет неба",
+  "quests.end.terminite_armor.sub": "Получите броню из терминита",
+
+  "quests.end.high_up.name": "А тут высоко",
+  "quests.end.high_up.sub": "Взлетите на 50 блоков с помощью шалкера",
+
+  "quests.end.kinetic_energy.name": "Понял, вычеркиваю",
+  "quests.end.kinetic_energy.sub": "Диспетчер?",
+
+  "quests.end.old_rituals.name": "Древние ритуалы",
+  "quests.end.old_rituals.sub": "Прямо как в таумкрафте",
+
+  "quests.end.armor_elytra.name": "Элитры: Теперь с броней",
+  "quests.end.armor_elytra.sub": "Апргейд прям апгрейд",
+
+  "quests.end.dragonslayer.name": "Это точно конец?",
+  "quests.end.dragonslayer.sub": "Победите эндер дракона",
+
+  "quests.end.blossoms.name": "А жизнь так и пестрит",
+  "quests.end.blossoms.sub": "ХЗ",
+
+  "quests.end.balls.name": "Новое поколение",
+  "quests.end.balls.sub": "ХЗ",
+
+  "quests.end.anvil_of_the_end.name": "Конец всех кузнечных дел",
+  "quests.end.anvil_of_the_end.sub": "Получите этериевую наковальню",
+
+  "quests.end.terminite_tools.name": "Вроде похоже на алмазы?",
+  "quests.end.terminite_tools.sub": "Получите инструмент из терминита",
+
+  "quests.end.eternal_light.name": "Вечный свет",
+  "quests.end.eternal_light.sub": "ХЗ?",
+
+  "quests.end.eternal_trope.name": "На вечных путях",
+  "quests.end.eternal_trope.sub": "Найдите древний портал",
+
+  "quests.end.terminite_anvil.name": "Он почернел...",
+  "quests.end.terminite_anvil.sub": "Получите терминитовую наковальню",
+
+  "quests.end.tallas_anvil.name": "Ковка края",
+  "quests.end.tallas_anvil.sub": "Получите талласиевую наковальню",
+
+  "quests.end.end_city.name": "Город края",
+  "quests.end.end_city.sub": "Арихетектор - еблан"
+}

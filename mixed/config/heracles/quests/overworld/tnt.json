@@ -1,0 +1,38 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.tnt.sub"
+    },
+    "description": [],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -70,
+          -129
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:tnt",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "quests.overworld.tnt.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

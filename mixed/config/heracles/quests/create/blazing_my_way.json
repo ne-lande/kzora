@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "muh_press"
+  ],
+  "tasks": {
+    "craft_cage": {
+      "title": "Сделайте клетку",
+      "icon": {
+        "item": {
+          "id": "create:empty_blaze_burner",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/empty_blaze_burner"
+      ],
+      "type": "heracles:recipe"
+    },
+    "get_blaze_burner": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Поймате пидораса",
+      "icon": {
+        "item": {
+          "id": "create:blaze_burner",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Ответ: Нет"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -80,
+          55
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:blaze_burner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Рабство?"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

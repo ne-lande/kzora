@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "monster_hunter"
+  ],
+  "tasks": {
+    "craft_witch_eye": {
+      "title": "Сделайте Око Ведьмы",
+      "icon": {
+        "item": {
+          "id": "endrem:witch_eye",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "endrem:witch_eye"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.witch_eye.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -184,
+          74
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "endrem:witch_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.witch_eye.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

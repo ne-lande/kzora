@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "building_monumental"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.community.building_service.sub"
+    },
+    "description": [],
+    "groups": {
+      "Community": {
+        "position": [
+          45,
+          -24
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:furnace",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.community.building_service.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

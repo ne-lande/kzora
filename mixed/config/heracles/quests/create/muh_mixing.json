@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "muh_press"
+  ],
+  "tasks": {
+    "craft_mixing": {
+      "title": "Механическаий смешиватель",
+      "icon": {
+        "item": {
+          "id": "create:mechanical_mixer",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/mechanical_mixer"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Такой говном точно не забьется"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -29,
+          14
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_mixer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ммм, миксер"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

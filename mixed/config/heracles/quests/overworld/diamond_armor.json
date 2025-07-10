@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "diamond"
+  ],
+  "tasks": {
+    "get_diamond_armor_any": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond_chestplate",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Алмазный нагрудник",
+      "icon": {
+        "item": {
+          "id": "minecraft:diamond_chestplate",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.diamond_armor.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          107,
+          -47
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond_chestplate",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hearts.png",
+    "title": {
+      "translate": "quests.overworld.diamond_armor.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

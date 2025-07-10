@@ -1,0 +1,68 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "exp_price": {
+      "amount": 50,
+      "xpType": "LEVEL",
+      "collectionType": "MANUAL",
+      "title": "Заплатите опытом",
+      "icon": {
+        "item": {
+          "id": "create:experience_nugget",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:xp"
+    }
+  },
+  "rewards": {
+    "open_origins_gui": {
+      "title": "Откройте меню смены класса.",
+      "icon": {
+        "item": {
+          "id": "origins:orb_of_origin",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "command": "origin gui @p origins:origin",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "quests.shop.origins.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Shop": {
+        "position": [
+          -17,
+          4
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "origins:orb_of_origin",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.shop.origins.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": true,
+    "autoClaimRewards": false,
+    "individual_progress": true,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

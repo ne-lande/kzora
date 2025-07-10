@@ -1,0 +1,25 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "team add undead_team"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "team join undead_team @s"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "team join undead_team @e[type=minecraft:zombie]"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "team join undead_team @e[type=minecraft:skeleton]"
+      }
+    ]
+  },
+  "interval": 20
+}

@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "i_smart",
+    "brass_casing"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Моджанги только тырят"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          69,
+          -81
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_crafter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Автокрафт"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

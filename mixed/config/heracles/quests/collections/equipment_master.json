@@ -1,0 +1,45 @@
+{
+  "dependencies": [
+    "pickaxes_master",
+    "axes_master",
+    "swords_master",
+    "armor_master",
+    "shovels_master",
+    "artifacts"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.collections.equipment_master.sub"
+    },
+    "description": [],
+    "groups": {
+      "Collections": {
+        "position": [60, -27]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "betterend:iron_hammer",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "quests.collections.equipment_master.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

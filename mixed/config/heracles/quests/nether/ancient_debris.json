@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "nether"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.nether.ancient_debris.sub"
+    },
+    "description": [],
+    "groups": {
+      "Nether": {
+        "position": [
+          -325,
+          -52
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:ancient_debris",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.nether.ancient_debris.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

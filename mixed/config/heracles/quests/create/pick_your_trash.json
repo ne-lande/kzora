@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "first_movement"
+  ],
+  "tasks": {
+    "craft_plug": {
+      "title": "Механический плуг",
+      "icon": {
+        "item": {
+          "id": "create:mechanical_plough",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/mechanical_plough"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Будь осторожен"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -96,
+          -22
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_plough",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Убирай за собой"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

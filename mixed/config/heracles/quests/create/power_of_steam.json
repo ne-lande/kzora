@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "liquids_too_too"
+  ],
+  "tasks": {
+    "craft_steam": {
+      "title": "Паровой двигатель",
+      "icon": {
+        "item": {
+          "id": "create:steam_engine",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/steam_engine"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Получите паровой двигатель"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          56,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:steam_engine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "\"Mountains Made Of Steam\""
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

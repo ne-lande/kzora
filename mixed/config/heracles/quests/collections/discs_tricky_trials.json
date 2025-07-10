@@ -1,0 +1,35 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.collections.discs_tricky_trials.sub"
+    },
+    "description": [],
+    "groups": {
+      "Collections": {
+        "position": [168, -111]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "purediscstrickytrials:music_disc_creator_music_box",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.collections.discs_tricky_trials.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

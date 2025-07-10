@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "first_movement"
+  ],
+  "tasks": {
+    "create_piston_extender": {
+      "title": "Удлинительн поршня",
+      "icon": {
+        "item": {
+          "id": "create:piston_extension_pole",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/piston_extension_pole"
+      ],
+      "type": "heracles:recipe"
+    },
+    "craft_piston": {
+      "title": "Механический поршень",
+      "icon": {
+        "item": {
+          "id": "create:mechanical_piston",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/mechanical_piston"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Лучше чем в ванилле"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -170,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_piston",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Назад-вперед"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

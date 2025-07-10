@@ -1,0 +1,37 @@
+{
+  "dependencies": [
+    "wood"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.overworld_wood.sub"
+    },
+    "description": [],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -108,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": "#minecraft:logs",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "quests.overworld.overworld_wood.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

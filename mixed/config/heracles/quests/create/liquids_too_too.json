@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "luquids_too"
+  ],
+  "tasks": {
+    "craft_pipes_too": {
+      "title": "Механическая помпа",
+      "icon": {
+        "item": {
+          "id": "create:mechanical_pump",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/mechanical_pump"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Ну их можно двигать"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          8,
+          -77
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_pump",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Жидкости тоже тоже"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "COMPLETED",
+    "unlockNotification": false
+  }
+}

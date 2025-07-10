@@ -1,0 +1,55 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "get_copper": {
+      "type": "heracles:item",
+      "item": "minecraft:copper_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Получите медь!!!!",
+      "icon": {
+        "item": {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Первый шаг для истребления чумы"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -32,
+          -84
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Медный век"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

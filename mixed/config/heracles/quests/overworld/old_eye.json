@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "desert_temple"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.old_eye.sub"
+    },
+    "description": [],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -127,
+          -132
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "endrem:old_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.old_eye.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

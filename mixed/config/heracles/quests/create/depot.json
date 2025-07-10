@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "andesite_plus"
+  ],
+  "tasks": {
+    "craft_depot": {
+      "title": "депо",
+      "icon": {
+        "item": {
+          "id": "create:depot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/depot"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Получите Депо"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -170,
+          33
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:depot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Не для поездов"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

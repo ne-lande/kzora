@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "cincina"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.nether.cincina_forge.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Nether": {
+        "position": [
+          -296,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "betternether:cincinnasite_forge",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.nether.cincina_forge.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

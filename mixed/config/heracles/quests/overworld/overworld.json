@@ -1,0 +1,54 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "first_launch": {
+      "icon": {
+        "item": {
+          "id": "minecraft:player_head",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "stat": "minecraft:play_time",
+      "target": 1,
+      "title": "Зайдите на сервер",
+      "type": "heracles:stat"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.overworld.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -156,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:player_head",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "quests.overworld.overworld.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "end_city"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.end.boing_cosplay.sub"
+    },
+    "description": [],
+    "groups": {
+      "End": {
+        "position": [
+          -66,
+          -115
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:elytra",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.end.boing_cosplay.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

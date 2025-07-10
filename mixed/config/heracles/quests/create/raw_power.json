@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "first_movement"
+  ],
+  "tasks": {
+    "craft_handle": {
+      "title": "Сделать рукоятку",
+      "icon": {
+        "item": {
+          "id": "create:hand_crank",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/hand_crank"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Это можно крутить"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -190,
+          -83
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:hand_crank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ручной труд"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

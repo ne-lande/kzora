@@ -1,0 +1,38 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.end.kinetic_energy.sub"
+    },
+    "description": [],
+    "groups": {
+      "End": {
+        "position": [
+          -15,
+          -138
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createdeco:decal_cross",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "quests.end.kinetic_energy.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "nether_fortress"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.nether.hell_eye.sub"
+    },
+    "description": [],
+    "groups": {
+      "Nether": {
+        "position": [
+          -384,
+          -178
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "endrem:nether_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "quests.nether.hell_eye.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

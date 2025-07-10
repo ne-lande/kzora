@@ -1,0 +1,35 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.overworld_biomes.sub"
+    },
+    "description": [],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -294,
+          36
+        ]
+      }
+    },
+    "icon": {
+      "item": "#trinkets:hand/atlas",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "quests.overworld.overworld_biomes.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "redstone"
+  ],
+  "tasks": {
+    "get_observer": {
+      "type": "heracles:item",
+      "item": "minecraft:observer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Получите наблюдатель",
+      "icon": {
+        "item": {
+          "id": "minecraft:observer",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.observer.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          151,
+          25
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:observer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.observer.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

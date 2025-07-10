@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "the_spot"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "В него можно засовывать предметы"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          -130,
+          -210
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:chute",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Шлюз"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

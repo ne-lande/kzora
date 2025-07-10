@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "manufacture",
+    "i_smart"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Принимает штуки с фильтрами"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          90,
+          -246
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:brass_funnel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Латунный шлюз"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

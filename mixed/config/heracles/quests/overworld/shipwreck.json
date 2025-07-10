@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "overworld"
+  ],
+  "tasks": {
+    "find_shipwreck": {
+      "title": "Найдите затонувший корабль",
+      "icon": {
+        "item": {
+          "id": "minecraft:oak_chest_boat",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "structures": "#minecraft:shipwreck",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.shipwreck.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -218,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:oak_chest_boat",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.shipwreck.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

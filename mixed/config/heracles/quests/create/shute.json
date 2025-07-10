@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "smart_shute",
+    "i_smart"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Ну он в принципе такой же только, чут умнее"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          -87,
+          -210
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:smart_chute",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Умный Шлюз"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "dependencies": [
+    "old_rituals",
+    "boing_cosplay"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.end.crystaline_elytra.sub"
+    },
+    "description": [],
+    "groups": {
+      "End": {
+        "position": [
+          -91,
+          -166
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "betterend:elytra_crystalite",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.end.crystaline_elytra.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

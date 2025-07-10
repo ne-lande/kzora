@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "start_of_the_end"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.end.the_end.sub"
+    },
+    "description": [],
+    "groups": {
+      "End": {
+        "position": [
+          -158,
+          -69
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:end_stone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.end.the_end.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

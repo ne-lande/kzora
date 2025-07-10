@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "cooper_casing"
+  ],
+  "tasks": {
+    "create_empyter": {
+      "title": "осушитель предметов",
+      "icon": {
+        "item": {
+          "id": "create:item_drain",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/item_drain"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Получите осушитель предметов"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -42,
+          -121
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:item_drain",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Дырка в ду́ше"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

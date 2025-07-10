@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "i_smart",
+    "liquids_too_too"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Получите умную трубу"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          48,
+          -122
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:smart_fluid_pipe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Умная вода"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

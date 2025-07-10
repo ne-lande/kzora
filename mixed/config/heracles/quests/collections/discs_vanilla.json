@@ -1,0 +1,35 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.collections.discs_vanilla.sub"
+    },
+    "description": [],
+    "groups": {
+      "Collections": {
+        "position": [129, -136]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:music_disc_5",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.collections.discs_vanilla.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

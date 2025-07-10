@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "redstone"
+  ],
+  "tasks": {
+    "get_piston": {
+      "type": "heracles:item",
+      "item": "minecraft:piston",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Получите поршень",
+      "icon": {
+        "item": {
+          "id": "minecraft:piston",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.piston.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          174,
+          126
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:piston",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.piston.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

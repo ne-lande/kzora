@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "first_movement"
+  ],
+  "tasks": {
+    "craft_metr": {
+      "title": "Сделайте спидометр",
+      "icon": {
+        "item": {
+          "id": "create:speedometer",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/speedometer"
+      ],
+      "type": "heracles:recipe"
+    },
+    "craft_stressometr": {
+      "title": "Сделайте стрессометр",
+      "icon": {
+        "item": {
+          "id": "create:stressometer",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/stressometerfrom_conversion"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Сложно..."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -70,
+          -83
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:speedometer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "***метры"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

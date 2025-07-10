@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "manufacture"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Отдает/Принимает штуки"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          -8,
+          -258
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:andesite_funnel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Андезитовый шлюз"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

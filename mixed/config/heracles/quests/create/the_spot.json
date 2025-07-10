@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "muh_press"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Получше ваших сундуков"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          -130,
+          -170
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:item_vault",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Хранилище"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": true,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

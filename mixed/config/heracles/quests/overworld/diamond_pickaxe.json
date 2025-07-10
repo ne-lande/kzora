@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "diamond"
+  ],
+  "tasks": {
+    "diamond_pickaxe": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond_pickaxe",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Получите алмазную кирку",
+      "icon": {
+        "item": {
+          "id": "minecraft:diamond_pickaxe",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.diamond_pickaxe.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          220,
+          -34
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.diamond_pickaxe.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

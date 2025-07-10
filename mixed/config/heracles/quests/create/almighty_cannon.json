@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "table_for_two"
+  ],
+  "tasks": {
+    "craft_cannon": {
+      "title": "Сделайте строительную пушку",
+      "icon": {
+        "item": {
+          "id": "create:schematicannon",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/schematics/schematicannon"
+      ],
+      "type": "heracles:recipe"
+    },
+    "build_something": {
+      "title": "Заполните схематику с помощью пушки",
+      "icon": {
+        "item": {
+          "id": "minecraft:bricks",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Она умеет строить"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -265,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:schematicannon",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Великая пушка"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

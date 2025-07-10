@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "villager_trade"
+  ],
+  "tasks": {
+    "find_mansion": {
+      "title": "Найдите особняк",
+      "icon": {
+        "item": {
+          "id": "minecraft:dark_oak_planks",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "structures": "minecraft:mansion",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.mansion.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -14,
+          40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:dark_oak_planks",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.mansion.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

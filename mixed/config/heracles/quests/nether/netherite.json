@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "ancient_debris"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.nether.netherite.sub"
+    },
+    "description": [],
+    "groups": {
+      "Nether": {
+        "position": [
+          -373,
+          -51
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.nether.netherite.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

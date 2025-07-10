@@ -1,0 +1,45 @@
+{
+  "dependencies": [
+    "event_idea"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.community.event_driver.sub"
+    },
+    "description": [],
+    "groups": {
+      "Community": {
+        "position": [
+          37,
+          -69
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:firework_rocket",
+        "count": 1,
+        "nbt": {
+          "Fireworks": {
+            "Flight": 1
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.community.event_driver.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

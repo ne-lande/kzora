@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "autocrafting"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Получите Дробильное колесо"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          89,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:crushing_wheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "мы любит ломат"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

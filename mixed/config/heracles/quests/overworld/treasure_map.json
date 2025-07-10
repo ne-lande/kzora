@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "shipwreck"
+  ],
+  "tasks": {
+    "find_buried_treasure": {
+      "title": "Найдите клад",
+      "icon": {
+        "item": {
+          "id": "lootr:lootr_chest",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "structures": "minecraft:buried_treasure",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.treasure_map.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -263,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:filled_map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "quests.overworld.treasure_map.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

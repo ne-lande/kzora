@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "ocean_monument"
+  ],
+  "tasks": {
+    "kill_elder_guardian_10": {
+      "icon": {
+        "item": {
+          "id": "minecraft:elder_guardian_spawn_egg",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "minecraft:elder_guardian"
+      },
+      "amount": 10,
+      "title": "Гарант",
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.guardian_eye_garant.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -223,
+          -116
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "endrem:guardian_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "quests.overworld.guardian_eye_garant.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "COMPLETED",
+    "unlockNotification": false
+  }
+}

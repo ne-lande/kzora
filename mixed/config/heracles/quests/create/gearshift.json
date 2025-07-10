@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "brass_casing"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Запоминает и воспроизводит"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          126,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:sequenced_gearshift",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Умная коробочка"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

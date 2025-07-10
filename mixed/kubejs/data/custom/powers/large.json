@@ -1,0 +1,18 @@
+{
+  "name": "Large",
+  "description": "You're a little tall and slight (105%)!\nHeight: 1.9 Blocks\nSneak Height: 1.6 Blocks\nWidth: 0.6 Blocks",
+  "type": "origins:action_on_callback",
+  "entity_action_chosen": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "scale set 1.66666 @s"
+      }
+    ]
+  },
+  "entity_action_lost": {
+    "type": "origins:execute_command",
+    "command": "scale reset @s"
+  }
+}

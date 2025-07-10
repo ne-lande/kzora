@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "trains"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Все об расписаниях здесь"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          56,
+          14
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:schedule",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Посадка объявляется"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

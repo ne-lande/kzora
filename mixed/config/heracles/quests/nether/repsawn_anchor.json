@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "crying_obsidian"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.nether.repsawn_anchor.sub"
+    },
+    "description": [],
+    "groups": {
+      "Nether": {
+        "position": [
+          -188,
+          -125
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:respawn_anchor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.nether.repsawn_anchor.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

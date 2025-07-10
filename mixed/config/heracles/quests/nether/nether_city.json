@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "nether"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.nether.nether_city.sub"
+    },
+    "description": [],
+    "groups": {
+      "Nether": {
+        "position": [
+          -267,
+          -110
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "betternether:cincinnasite_carved",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.nether.nether_city.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

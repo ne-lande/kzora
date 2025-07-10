@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "blueprints"
+  ],
+  "tasks": {
+    "sanity_check": {
+      "title": "Создайте какую-нибудь схему (можно пропустить)",
+      "icon": {
+        "item": {
+          "id": "minecraft:command_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    },
+    "craft_empty_schema": {
+      "title": "Сделайте схему с пером",
+      "icon": {
+        "item": {
+          "id": "create:schematic_and_quill",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/schematics/schematic_and_quill"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Сделайте свой чертеж"
+    },
+    "description": [
+      "## Что нужно для выполнения",
+      "",
+      "Чтобы начать делать схемы, необходим пустой чертеж и перо. Надеюсь у вас такое найдется.",
+      "",
+      "## Как работать со схемой и пером",
+      "",
+      "Схемы выделяются прямоугольной обласьтю с помощью **ПКМ**.",
+      "Если возникла необходимость зацепится за блок, то выделяйте в присяди и регулируйте дальность колёсиком мыши.",
+      "",
+      "Для __отмены__ выделенной области, нажмите **ПКМ** в присяди.",
+      "Чтобы __сохранить__ выделенную область, еще раз клацните **ПКМ**'ом.",
+      "",
+      "СХЕМА ПОСЛЕ ИСПОЛЬЗОВАНИЯ НЕ ТРАТИТСЯ",
+      "",
+      "---",
+      "",
+      "Интересный факт: такие схемы совместимы с Litematica!"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -220,
+          33
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:schematic_and_quill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Сам себе архитектор"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

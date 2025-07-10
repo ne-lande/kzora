@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "crafting_table"
+  ],
+  "tasks": {
+    "craft_furnace": {
+      "title": "Сделайте печку",
+      "icon": {
+        "item": {
+          "id": "minecraft:furnace",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "minecraft:furnace"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.furnace.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -15,
+          -13
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:furnace",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.furnace.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

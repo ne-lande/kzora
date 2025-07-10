@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "andesite_power"
+  ],
+  "tasks": {
+    "craft_minecart_assembler": {
+      "title": "Сделайте хуйню",
+      "icon": {
+        "item": {
+          "id": "create:cart_assembler",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/cart_assembler"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Вагонеток стоит боятся"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -170,
+          -10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:cart_assembler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Сборщик вагонеток"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

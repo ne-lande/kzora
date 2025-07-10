@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "blossoms"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.end.eternal_trope.sub"
+    },
+    "description": [],
+    "groups": {
+      "End": {
+        "position": [
+          -154,
+          -180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "betterend:eternal_pedestal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.end.eternal_trope.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

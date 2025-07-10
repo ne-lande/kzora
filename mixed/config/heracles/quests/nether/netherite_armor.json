@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "netherite"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.nether.netherite_armor.sub"
+    },
+    "description": [],
+    "groups": {
+      "Nether": {
+        "position": [
+          -396,
+          -95
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:netherite_helmet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.nether.netherite_armor.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

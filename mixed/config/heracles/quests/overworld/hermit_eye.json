@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "jungle_temple"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.hermit_eye.sub"
+    },
+    "description": [],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -253,
+          -1
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "endrem:rogue_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.hermit_eye.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

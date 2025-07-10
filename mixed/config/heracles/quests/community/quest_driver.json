@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "quest_idea"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.community.quest_driver.sub"
+    },
+    "description": [],
+    "groups": {
+      "Community": {
+        "position": [
+          202,
+          -71
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:repeating_command_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.community.quest_driver.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

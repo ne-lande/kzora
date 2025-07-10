@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "brass"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Все что было раньше, работает и тут"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          125,
+          -79
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:brass_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Латунный корпус"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

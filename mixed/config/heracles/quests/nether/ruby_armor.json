@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "ruby"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.nether.ruby_armor.sub"
+    },
+    "description": [],
+    "groups": {
+      "Nether": {
+        "position": [
+          -135,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "betternether:nether_ruby_helmet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.nether.ruby_armor.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

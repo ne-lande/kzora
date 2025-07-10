@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "redstone"
+  ],
+  "tasks": {
+    "get_redstone_torch": {
+      "type": "heracles:item",
+      "item": "minecraft:redstone_torch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Получите редстоуновый факел",
+      "icon": {
+        "item": {
+          "id": "minecraft:redstone_torch",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.redstone_torch.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          174,
+          61
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:redstone_torch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.redstone_torch.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "i_smart",
+    "brass_casing"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Нет, не ролексы"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          95,
+          -122
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:clockwork_bearing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Часовой механизм"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

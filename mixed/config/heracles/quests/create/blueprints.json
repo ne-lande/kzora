@@ -1,0 +1,47 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Начните тут"
+    },
+    "description": [
+      "Create позволяет сохранять постройки в схемы а после выстраивать их",
+      "",
+      "Тут вы научитесь:",
+      "- Создавать схемы",
+      "- Планировать ресурсы постройки",
+      "- Автоматически строить по схемам",
+      "",
+      "Если интересно, то крафть пустую схематику!"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -220,
+          -10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:empty_schematic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Чертежи"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

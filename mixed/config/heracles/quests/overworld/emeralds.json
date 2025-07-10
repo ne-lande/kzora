@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "iron_pickaxe"
+  ],
+  "tasks": {
+    "get_emeralds": {
+      "type": "heracles:item",
+      "item": "minecraft:emerald",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Получите изумруды",
+      "icon": {
+        "item": {
+          "id": "minecraft:emerald",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.emeralds.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          65,
+          42
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.emeralds.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

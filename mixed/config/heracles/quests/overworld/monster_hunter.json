@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "overworld"
+  ],
+  "tasks": {
+    "kill_hostile_entity": {
+      "icon": {
+        "item": {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "stat": "minecraft:mob_kills",
+      "target": 1,
+      "title": "Убейте моба",
+      "type": "heracles:stat"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.monster_hunter.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -166,
+          28
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:bone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.monster_hunter.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

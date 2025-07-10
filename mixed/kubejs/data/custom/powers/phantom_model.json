@@ -1,0 +1,19 @@
+{
+  "type": "origins:multiple",
+  "model_color": {
+    "type": "origins:model_color",
+    "alpha": 0.5,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "custom:phantom_switch"
+    }
+  },
+  "invisible_armor": {
+    "type": "origins:prevent_feature_render",
+    "features": ["armor"],
+    "condition": {
+      "type": "origins:power_active",
+      "power": "custom:phantom_switch"
+    }
+  }
+}

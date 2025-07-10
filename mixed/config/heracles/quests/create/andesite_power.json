@@ -1,0 +1,80 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "aquire_iron": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_nugget",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aquire_andesite": {
+      "type": "heracles:item",
+      "item": "minecraft:andesite",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "Соберите андезита",
+      "icon": {
+        "item": {
+          "id": "minecraft:andesite",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "craft_andesite_alloy": {
+      "title": "Сделайте андезитовый сплав",
+      "icon": {
+        "item": {
+          "id": "create:andesite_alloy",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Сделайте первый андезитовый сплав"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -130,
+          -30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Начало великих инженеров"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

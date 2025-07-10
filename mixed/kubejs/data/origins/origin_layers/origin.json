@@ -1,0 +1,14 @@
+{
+  "replace": true,
+  "origins": [
+    "custom:chimera",
+    "custom:ghost",
+    "custom:half-blood_ender",
+    "custom:hermit",
+    "custom:master",
+    "custom:mole",
+    "custom:phantom",
+    "custom:statue",
+    "custom:undead"
+  ]
+}

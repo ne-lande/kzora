@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "mansion"
+  ],
+  "tasks": {
+    "magic_eye": {
+      "type": "heracles:item",
+      "item": "endrem:magical_eye",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Магическое ОКО",
+      "icon": {
+        "item": {
+          "id": "endrem:magical_eye",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.magic_eye.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -62,
+          38
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "endrem:magical_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.magic_eye.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

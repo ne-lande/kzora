@@ -1,0 +1,38 @@
+{
+  "dependencies": ["netherite"],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.nether.netherite_tools.sub"
+    },
+    "description": [""],
+    "groups": {
+      "Nether": {
+        "position": [-382, -8]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:netherite_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.nether.netherite_tools.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

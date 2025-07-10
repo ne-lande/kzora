@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "brass_casing"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Самое крутое что они плавные"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          180,
+          -78
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:elevator_pulley",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Лифт?"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "dragonslayer"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.end.cycle_repeats.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "End": {
+        "position": [
+          -251,
+          -26
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:end_crystal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.end.cycle_repeats.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

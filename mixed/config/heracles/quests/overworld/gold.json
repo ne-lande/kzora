@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "iron_pickaxe"
+  ],
+  "tasks": {
+    "get_gold": {
+      "type": "heracles:item",
+      "item": "minecraft:gold_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Получите золото!",
+      "icon": {
+        "item": {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.gold.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          36,
+          -41
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.gold.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

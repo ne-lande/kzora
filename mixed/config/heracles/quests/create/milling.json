@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "first_movement"
+  ],
+  "tasks": {
+    "craft_mill": {
+      "title": "Сделайте Жернов",
+      "icon": {
+        "item": {
+          "id": "create:millstone",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/millstone"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Новые рецепты ура?"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -130,
+          -134
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:millstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Жёрнов"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

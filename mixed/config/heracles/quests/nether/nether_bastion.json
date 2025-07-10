@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "nether"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.nether.nether_bastion.sub"
+    },
+    "description": [],
+    "groups": {
+      "Nether": {
+        "position": [
+          -183,
+          -63
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:chiseled_polished_blackstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.nether.nether_bastion.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

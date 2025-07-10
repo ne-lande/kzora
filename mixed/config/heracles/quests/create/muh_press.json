@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "andesite_plus"
+  ],
+  "tasks": {
+    "craft_press": {
+      "title": "Механический пресс",
+      "icon": {
+        "item": {
+          "id": "create:mechanical_press",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/mechanical_press"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Станок податлив и прост в использовании"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -80,
+          14
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_press",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ммм, пресс"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

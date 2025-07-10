@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "muh_mixing",
+    "blazing_my_way"
+  ],
+  "tasks": {
+    "craft_kotel": {
+      "title": "котел",
+      "icon": {
+        "item": {
+          "id": "create:basin",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/basin"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "только это не котлы а чаши"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -30,
+          55
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:basin",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Котлы они такие"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

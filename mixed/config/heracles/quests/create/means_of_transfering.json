@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "first_movement"
+  ],
+  "tasks": {
+    "gearbox_conversion": {
+      "title": "Переверните?",
+      "icon": {
+        "item": {
+          "id": "create:vertical_gearbox",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/vertical_gearboxfrom_conversion"
+      ],
+      "type": "heracles:recipe"
+    },
+    "craft_gearbox": {
+      "title": "Сделайте коробку передач.",
+      "icon": {
+        "item": {
+          "id": "create:gearbox",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/gearbox"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "N, 1, 2, 3, R, че сложного?"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -170,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:gearbox",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Механика"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

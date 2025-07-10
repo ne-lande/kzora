@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "obsidian"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.create_nether_portal.sub"
+    },
+    "description": [],
+    "groups": {
+      "Overworld": {
+        "position": [
+          219,
+          -124
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "betternether:obsidian_glass_pane",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.create_nether_portal.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "custom:ghost_switch",
+    "custom:ghost_phaze",
+    "custom:ghost_overlay",
+    "custom:invisible_armor"
+  ],
+  "icon": "minecraft:glass",
+  "impact": 1
+}

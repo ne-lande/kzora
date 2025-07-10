@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "treasure_map"
+  ],
+  "tasks": {
+    "find_heart_of_the_sea": {
+      "type": "heracles:item",
+      "item": "minecraft:heart_of_the_sea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Получите Сердце моря",
+      "icon": {
+        "item": {
+          "id": "minecraft:heart_of_the_sea",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.heart_of_the_sea.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -337,
+          -49
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:heart_of_the_sea",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.heart_of_the_sea.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

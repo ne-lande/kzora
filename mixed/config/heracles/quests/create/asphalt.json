@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "we_love_crushing"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Получите механический каток"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          101,
+          -2
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_roller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Не ложись под каток"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

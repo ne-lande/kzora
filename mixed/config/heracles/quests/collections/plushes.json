@@ -1,0 +1,35 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.collections.plushes.sub"
+    },
+    "description": [""],
+    "groups": {
+      "Collections": {
+        "position": [170, -47]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "plushables:octoplush_plushable",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.collections.plushes.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

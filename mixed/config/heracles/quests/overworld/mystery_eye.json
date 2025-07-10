@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "enchanting"
+  ],
+  "tasks": {
+    "get_mystery_eye": {
+      "type": "heracles:item",
+      "item": "endrem:cryptic_eye",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Продолжайте не верить в удачу",
+      "icon": {
+        "item": {
+          "id": "endrem:cryptic_eye",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.mystery_eye.sub"
+    },
+    "description": [
+      "Данное око можно получить с N шансом при зачаровании любого предмета.",
+      "",
+      "На данное око предусмотрено гарантированное получение."
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          66,
+          -83
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "endrem:cryptic_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.mystery_eye.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

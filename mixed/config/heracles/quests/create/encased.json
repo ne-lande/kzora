@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "first_movement"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Связаны"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          -87,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:encased_chain_drive",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "В клетке"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

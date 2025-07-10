@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "first_movement"
+  ],
+  "tasks": {
+    "craft_plug": {
+      "title": "Механический комбайн",
+      "icon": {
+        "item": {
+          "id": "create:mechanical_harvester",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/mechanical_harvester"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Все для сельхоза"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -70,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_harvester",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "300"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

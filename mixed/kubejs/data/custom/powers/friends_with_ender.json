@@ -1,0 +1,25 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "team add enderman_team"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "team join enderman_team @s"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "team join enderman_team @e[type=minecraft:enderman]"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "team join enderman_team @e[type=minecraft:endermite]"
+      }
+    ]
+  },
+  "interval": 20
+}

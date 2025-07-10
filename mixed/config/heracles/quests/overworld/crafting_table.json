@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "wood"
+  ],
+  "tasks": {
+    "craft_crafting_table": {
+      "title": "Сделайте верстак",
+      "icon": {
+        "item": {
+          "id": "minecraft:crafting_table",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "minecraft:crafting_table"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.crafting_table.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -61,
+          -33
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:crafting_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.crafting_table.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

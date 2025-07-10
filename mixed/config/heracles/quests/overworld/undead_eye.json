@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "monster_hunter"
+  ],
+  "tasks": {
+    "craft_undead_eye": {
+      "title": "Сделайте око нежити",
+      "icon": {
+        "item": {
+          "id": "endrem:undead_eye",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "endrem:undead_eye"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.undead_eye.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -238,
+          37
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "endrem:undead_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.undead_eye.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

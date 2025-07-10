@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "depot"
+  ],
+  "tasks": {
+    "craft_catapult": {
+      "title": "катапульта",
+      "icon": {
+        "item": {
+          "id": "create:weighted_ejector",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/weighted_ejector"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Для вещей, мобов и игроков"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -130,
+          55
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:weighted_ejector",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Катапульта"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

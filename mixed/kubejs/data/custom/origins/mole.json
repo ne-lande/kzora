@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins:strong_arms",
+    "origins:strong_arms_break_speed",
+    "origins:cat_vision",
+    "origins:climbing"
+  ],
+  "icon": "minecraft:torch",
+  "impact": 1
+}

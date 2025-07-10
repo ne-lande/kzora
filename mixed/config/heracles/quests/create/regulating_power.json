@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "precise_mechanism"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "QoL в строении механизмов"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          167,
+          -245
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:rotation_speed_controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Регулируем силу"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

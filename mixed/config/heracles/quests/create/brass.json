@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "kotel"
+  ],
+  "tasks": {
+    "craft_brass": {
+      "title": "Сварите чай",
+      "icon": {
+        "item": {
+          "id": "create:brass_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:mixing/brass_ingot"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "*ЛАТУНЬ"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          140,
+          -123
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:brass_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "БРОНЗА"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "visit_ocean_monument": {
+      "title": "Посетите ",
+      "icon": {
+        "item": {
+          "id": "minecraft:prismarine_bricks",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "structures": "#betteroceanmonuments:better_ocean_monuments",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.ocean_monument.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -280,
+          -139
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:prismarine_bricks",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.ocean_monument.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

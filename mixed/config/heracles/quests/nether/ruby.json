@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "nether"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.nether.ruby.sub"
+    },
+    "description": [],
+    "groups": {
+      "Nether": {
+        "position": [
+          -184,
+          -22
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "betternether:nether_ruby",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.nether.ruby.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

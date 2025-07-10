@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "cooper_casing"
+  ],
+  "tasks": {
+    "crafting_spout": {
+      "title": "Дозатор",
+      "icon": {
+        "item": {
+          "id": "create:spout",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/spout"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Получите Дозатор"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -21,
+          -149
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:spout",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "50 мл на каждого"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

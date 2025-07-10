@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "brass"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Надеюсь отсылка понятна"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          179,
+          -122
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Гурен Лаган"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

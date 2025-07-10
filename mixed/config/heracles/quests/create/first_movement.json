@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "andesite_power"
+  ],
+  "tasks": {
+    "craft_shaft": {
+      "title": "Сделать вал",
+      "icon": {
+        "item": {
+          "id": "create:shaft",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/shaft"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Скрафтите пару шестеренок"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -130,
+          -83
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:large_cogwheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Первое движение"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

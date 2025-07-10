@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "obsidian"
+  ],
+  "tasks": {
+    "craft_enchanting_table": {
+      "title": "Сделайте чародейский стол",
+      "icon": {
+        "item": {
+          "id": "minecraft:enchanting_table",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "minecraft:enchanting_table"
+      ],
+      "type": "heracles:recipe"
+    },
+    "enchant_some_thing": {
+      "icon": {
+        "item": {
+          "id": "minecraft:enchanted_book",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "stat": "minecraft:enchant_item",
+      "target": 1,
+      "title": "Зачаруйте что-нибудь",
+      "type": "heracles:stat"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.enchanting.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          122,
+          -99
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:enchanting_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.enchanting.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

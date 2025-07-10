@@ -1,0 +1,9 @@
+{
+  "type": "origins:action_over_time",
+  "action": "origins:gain_air",
+  "interval": 1,
+  "condition": {
+    "type": "origins:submerged_in",
+    "fluid": "minecraft_water"
+  }
+}

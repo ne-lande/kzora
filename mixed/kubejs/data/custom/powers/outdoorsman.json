@@ -1,0 +1,8 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "stepheightentityattribute:stepheight",
+    "operation": "addition",
+    "value": 0.5
+  }
+}

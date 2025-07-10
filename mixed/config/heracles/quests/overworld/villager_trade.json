@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "emeralds"
+  ],
+  "tasks": {
+    "trade": {
+      "icon": {
+        "item": {
+          "id": "minecraft:emerald",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "stat": "minecraft:traded_with_villager",
+      "target": 1,
+      "title": "Поторгуйтесь",
+      "type": "heracles:stat"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.villager_trade.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          31,
+          76
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:villager_spawn_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.villager_trade.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

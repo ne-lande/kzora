@@ -1,0 +1,8 @@
+
+#General mod settings
+[general]
+	#Mobs enhanced by zombie awareness
+	enhancedMobs = ["minecraft:zombie", "minecraft:husk", "minecraft:creeper", "minecraft:skeleton", "minecraft:stray", "minecraft:witch", "minecraft:zombie_villager"]
+	#This is a list to use as a reference for your modpack for mobs you might want to enhance, if these mobs also walk on the ground, they will probably work if you add them to enhancedMobs
+	enhanceableMobs = ["aquamirae:eel", "minecraft:drowned", "minecraft:silverfish", "minecraft:pillager", "minecraft:piglin", "aquamirae:captain_cornelia", "minecraft:ghast", "minecraft:cave_spider", "betternether:naga", "minecraft:wither_skeleton", "minecraft:blaze", "minecraft:illusioner", "minecraft:vindicator", "aquamirae:tortured_soul", "betternether:jungle_skeleton", "betterend:shadow_walker", "minecraft:evoker", "minecraft:creeper", "minecraft:stray", "minecraft:witch", "betterend:end_slime", "galosphere:spectre", "minecraft:vex", "minecraft:piglin_brute", "minecraft:endermite", "minecraft:spider", "betternether:skull", "minecraft:hoglin", "galosphere:preserved", "aquamirae:maze_mother", "minecraft:zoglin", "minecraft:guardian", "botania:doppleganger", "minecraft:ender_dragon", "dungeonnowloading:spawner_carrier", "minecraft:shulker", "minecraft:skeleton", "minecraft:slime", "aquamirae:maw", "minecraft:giant", "minecraft:wither", "minecraft:zombie_villager", "minecraft:phantom", "minecraft:zombified_piglin", "galosphere:berserker", "dungeonnowloading:chaos_spawner", "minecraft:husk", "minecraft:zombie", "minecraft:warden", "dungeonnowloading:hollow", "minecraft:enderman", "minecraft:magma_cube", "aquamirae:pillagers_patrol", "minecraft:ravager", "minecraft:elder_guardian"]
+

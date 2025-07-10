@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "dragonslayer"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.end.balls.sub"
+    },
+    "description": [],
+    "groups": {
+      "End": {
+        "position": [
+          -318,
+          -37
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:dragon_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.end.balls.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

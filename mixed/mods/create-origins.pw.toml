@@ -1,0 +1,13 @@
+name = "Create: Origins"
+filename = "createorigins-1.4.2+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PnhmwLM0/versions/5ddQZm9q/createorigins-1.4.2%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "e4fc741c4cc1db6b43345daeff437c2a3762c6a30a7ee878528de4845484fbce5162793087c9cad49c628d02aebcc70968dcd934639d0dc49a8018c118875863"
+
+[update]
+[update.modrinth]
+mod-id = "PnhmwLM0"
+version = "5ddQZm9q"

@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "the_end"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.end.blossoms.sub"
+    },
+    "description": [],
+    "groups": {
+      "End": {
+        "position": [
+          -139,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "betterend:end_mycelium",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.end.blossoms.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

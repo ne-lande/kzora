@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "nether_fortress"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.nether.blaze_rod.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Nether": {
+        "position": [
+          -394,
+          -134
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:blaze_rod",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.nether.blaze_rod.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "tallas_anvil"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.end.tallas_tools.sub"
+    },
+    "description": [],
+    "groups": {
+      "End": {
+        "position": [
+          -190,
+          18
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "betterend:thallasium_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.end.tallas_tools.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

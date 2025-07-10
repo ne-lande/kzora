@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "redstone"
+  ],
+  "tasks": {
+    "get_dispenser": {
+      "type": "heracles:item",
+      "item": "minecraft:dispenser",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Получите раздатчик",
+      "icon": {
+        "item": {
+          "id": "minecraft:dispenser",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.dispenser.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          110,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:dispenser",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.dispenser.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

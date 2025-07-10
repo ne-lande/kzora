@@ -1,0 +1,40 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.community.most_alive.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Community": {
+        "position": [
+          90,
+          -68
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:totem_of_undying",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "quests.community.most_alive.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

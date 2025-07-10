@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "blueprints"
+  ],
+  "tasks": {
+    "make_schame": {
+      "title": "Заполните схему с помощью стола",
+      "icon": {
+        "item": {
+          "id": "create:schematic",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    },
+    "craft_table": {
+      "title": "Сделайте стол",
+      "icon": {
+        "item": {
+          "id": "create:schematic_table",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/schematics/schematic_table"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Стол для схематик"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -265,
+          -10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:schematic_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Grand Scheme Of Things"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

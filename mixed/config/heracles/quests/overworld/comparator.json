@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "redstone_torch"
+  ],
+  "tasks": {
+    "get_comparator": {
+      "type": "heracles:item",
+      "item": "minecraft:comparator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Получите редстоуновый компаратор",
+      "icon": {
+        "item": {
+          "id": "minecraft:comparator",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.comparator.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          223,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:comparator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.comparator.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

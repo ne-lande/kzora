@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "manufacture"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Пропускает штуки"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          -48,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:andesite_tunnel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Андезитовый Тунель"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

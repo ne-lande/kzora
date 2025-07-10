@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "encased",
+    "i_smart"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Умная цепная коробчка"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          -87,
+          -170
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:adjustable_chain_gearshift",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "РАЙАН ГОСЛИНГ?"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

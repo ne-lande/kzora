@@ -1,0 +1,9 @@
+{
+  "powers": [
+    "origins:extra_reach",
+    "origins:scare_creepers",
+    "origins:fall_immunity"
+  ],
+  "icon": "minecraft:bricks",
+  "impact": 1
+}

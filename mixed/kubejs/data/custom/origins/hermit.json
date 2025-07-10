@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "custom:outdoorsman",
+    "origins:shulker_inventory",
+    "origins:sprint_jump",
+    "origins:like_air",
+    "origins:tailwind"
+  ],
+  "icon": "minecraft:leather_boots",
+  "impact": 1
+}

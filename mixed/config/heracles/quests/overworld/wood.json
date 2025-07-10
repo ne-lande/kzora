@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "overworld"
+  ],
+  "tasks": {
+    "get_wood": {
+      "type": "heracles:item",
+      "item": "#minecraft:logs",
+      "amount": 1,
+      "collection": "CONSUME",
+      "title": "Получите дерево",
+      "icon": {
+        "item": "#minecraft:logs",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.wood.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -109,
+          -34
+        ]
+      }
+    },
+    "icon": {
+      "item": "#minecraft:logs",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.wood.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

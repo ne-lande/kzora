@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "all_aboard"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Умный, наблюдает"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          56,
+          55
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:track_observer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Следим за поездами"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

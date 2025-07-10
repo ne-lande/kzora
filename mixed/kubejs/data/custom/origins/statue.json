@@ -1,0 +1,9 @@
+{
+  "powers": [
+    "origins:natural_armor",
+    "origins:fire_immunity",
+    "custom:water_breathing"
+  ],
+  "icon": "minecraft:stone",
+  "impact": 1
+}

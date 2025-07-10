@@ -1,0 +1,13 @@
+name = "kzora-client"
+author = "nelande"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "dfcadf862251634c74bc5c49a2ad99b558837283659173d42548ab56a01c10c5"
+
+[versions]
+fabric = "0.16.14"
+minecraft = "1.20.1"

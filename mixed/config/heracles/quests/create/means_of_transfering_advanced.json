@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "means_of_transfering"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Получите сцепление"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          -170,
+          -170
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:clutch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Это точно мод не про машины?"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

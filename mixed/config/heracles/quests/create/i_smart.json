@@ -1,0 +1,55 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "craft_mechanical_lamp": {
+      "title": "Электронная лампа",
+      "icon": {
+        "item": {
+          "id": "create:electron_tube",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/rose_quartz_lamp"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Все для умных штук"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          68,
+          -170
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:electron_tube",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Юный шелдон"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

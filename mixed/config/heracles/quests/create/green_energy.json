@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "raw_power"
+  ],
+  "tasks": {
+    "craft_airmill_2": {
+      "title": "Паруса",
+      "icon": {
+        "item": {
+          "id": "create:white_sail",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/white_sail"
+      ],
+      "type": "heracles:recipe"
+    },
+    "craft_1": {
+      "title": "Гатово",
+      "icon": {
+        "item": {
+          "id": "create:windmill_bearing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/windmill_bearing"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Да они крутятся"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -220,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:white_sail",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ого, мельница!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

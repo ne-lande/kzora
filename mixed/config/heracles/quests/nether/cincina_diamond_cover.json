@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "cincina_tools"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Nether": {
+        "position": [
+          -192,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "betternether:cincinnasite_pickaxe_diamond",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "lvl": 2,
+              "id": "betternether:obsidian_breaker"
+            }
+          ],
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "cincina_diamond_cover"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

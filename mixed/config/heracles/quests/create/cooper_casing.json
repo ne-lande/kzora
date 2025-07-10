@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "cooper"
+  ],
+  "tasks": {
+    "craft_copper_casing": {
+      "title": "Медный корпус",
+      "icon": {
+        "item": {
+          "id": "create:copper_casing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:item_application/copper_casing_from_log"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Сделайте медный корпус"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          10,
+          -121
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:copper_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cuprum"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

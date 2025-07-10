@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "crafting_table"
+  ],
+  "tasks": {
+    "get_boat": {
+      "type": "heracles:item",
+      "item": "#minecraft:boats",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Получите лодку",
+      "icon": {
+        "item": "#minecraft:boats",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.boat.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -54,
+          -87
+        ]
+      }
+    },
+    "icon": {
+      "item": "#minecraft:boats",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.boat.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

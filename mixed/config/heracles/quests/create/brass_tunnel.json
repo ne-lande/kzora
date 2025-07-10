@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "manufacture",
+    "i_smart"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Пропускает штуки, НО ПО УМНОМУ И НЕ ПЕРДИТ"
+    },
+    "description": [],
+    "groups": {
+      "Create": {
+        "position": [
+          43,
+          -206
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:brass_tunnel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Латунный тунель"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

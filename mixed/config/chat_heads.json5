@@ -1,0 +1,8 @@
+{
+	"renderPosition": "BEFORE_LINE",
+	"offsetNonPlayerText": true,
+	"senderDetection": "UUID_ONLY",
+	"smartHeuristics": false,
+	"handleSystemMessages": true,
+	"nameAliases": { }
+}

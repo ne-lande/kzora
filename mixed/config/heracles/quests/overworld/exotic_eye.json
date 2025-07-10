@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "heart_of_the_sea",
+    "ocean_monument"
+  ],
+  "tasks": {
+    "craft_exotic_eye": {
+      "title": "Соберите кучу говна в одну",
+      "icon": {
+        "item": {
+          "id": "endrem:exotic_eye",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "endrem:exotic_eye"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.exotic_eye.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -343,
+          -104
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "endrem:exotic_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.exotic_eye.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

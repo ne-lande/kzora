@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "ruby"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.nether.ruby_tools.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Nether": {
+        "position": [
+          -194,
+          20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "betternether:nether_ruby_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "lvl": 1,
+              "id": "betternether:obsidian_breaker"
+            }
+          ],
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.nether.ruby_tools.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

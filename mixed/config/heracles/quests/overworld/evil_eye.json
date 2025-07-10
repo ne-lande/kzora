@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "villager_trade"
+  ],
+  "tasks": {
+    "get_evil_eye": {
+      "type": "heracles:item",
+      "item": "endrem:evil_eye",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Зловещее Око",
+      "icon": {
+        "item": {
+          "id": "endrem:evil_eye",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.evil_eye.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          75,
+          116
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "endrem:evil_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.evil_eye.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

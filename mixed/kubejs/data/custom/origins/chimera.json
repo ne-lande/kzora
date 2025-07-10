@@ -1,0 +1,5 @@
+{
+  "powers": ["origins:elytra", "origins:launch_into_air"],
+  "icon": "minecraft:elytra",
+  "impact": 1
+}

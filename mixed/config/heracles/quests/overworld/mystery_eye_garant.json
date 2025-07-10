@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "enchanting"
+  ],
+  "tasks": {
+    "enchant_25_times": {
+      "icon": {
+        "item": {
+          "id": "minecraft:enchanted_book",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "stat": "minecraft:enchant_item",
+      "target": 25,
+      "title": "Гарант",
+      "type": "heracles:stat"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.mystery_eye_garant.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          126,
+          -155
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "endrem:cryptic_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "quests.overworld.mystery_eye_garant.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "COMPLETED",
+    "unlockNotification": false
+  }
+}

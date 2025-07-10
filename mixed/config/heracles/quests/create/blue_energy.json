@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "raw_power"
+  ],
+  "tasks": {
+    "craft_water_wheel": {
+      "title": "Водяное колесо",
+      "icon": {
+        "item": {
+          "id": "create:water_wheel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/water_wheel"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Изобретите колесо?"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -220,
+          -114
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:water_wheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Римляне не придумали акведуки"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

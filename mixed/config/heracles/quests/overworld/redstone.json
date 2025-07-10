@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "iron_pickaxe"
+  ],
+  "tasks": {
+    "get_redstone": {
+      "type": "heracles:item",
+      "item": "minecraft:redstone",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Получите красную пыль!!!!",
+      "icon": {
+        "item": {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.redstone.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          109,
+          63
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.redstone.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

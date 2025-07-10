@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "ocean_monument"
+  ],
+  "tasks": {
+    "get_eye": {
+      "type": "heracles:item",
+      "item": "endrem:guardian_eye",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Не верьте в удачу",
+      "icon": {
+        "item": {
+          "id": "endrem:guardian_eye",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "kill_elder_guardian": {
+      "icon": {
+        "item": {
+          "id": "minecraft:elder_guardian_spawn_egg",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "minecraft:elder_guardian"
+      },
+      "amount": 1,
+      "title": "Убейте древнего стража",
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.overworld.guardian_eye.sub"
+    },
+    "description": [
+      "Данное око можно получить с N шансом при убийстве древнего стража.",
+      "",
+      "На данное око предусмотрено гарантированное получение."
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -220,
+          -155
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "endrem:guardian_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.overworld.guardian_eye.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

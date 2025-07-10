@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "the_end"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.end.tallas_anvil.sub"
+    },
+    "description": [],
+    "groups": {
+      "End": {
+        "position": [
+          -143,
+          -4
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "betterend:thallasium_anvil",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.end.tallas_anvil.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

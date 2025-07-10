@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "dragonslayer"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "quests.end.raw_breath.sub"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "End": {
+        "position": [
+          -251,
+          -115
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:dragon_breath",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quests.end.raw_breath.name"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

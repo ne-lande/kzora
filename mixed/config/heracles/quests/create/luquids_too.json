@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "muh_press",
+    "cooper"
+  ],
+  "tasks": {
+    "craft_tube": {
+      "title": "Сделайте трубу",
+      "icon": {
+        "item": {
+          "id": "create:fluid_pipe",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "create:crafting/kinetics/fluid_pipe"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Получите медную трубу"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -32,
+          -38
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:fluid_pipe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "И жидкости тоже"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}
