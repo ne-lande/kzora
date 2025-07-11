@@ -18,7 +18,9 @@ jobs:
           sudo apt update && sudo apt install -y golang
           go install github.com/packwiz/packwiz@latest
           echo "$HOME/go/bin" >> $GITHUB_PATH
-          packwiz version
+
+      - name: packwiz healthcheck
+        run: packwiz version
 
       - name: Run `make update`
         run: make update
