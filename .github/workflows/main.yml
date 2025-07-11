@@ -19,9 +19,6 @@ jobs:
           go install github.com/packwiz/packwiz@latest
           echo "$HOME/go/bin" >> $GITHUB_PATH
 
-      - name: packwiz healthcheck
-        run: packwiz version
-
       - name: Run `make update`
         run: make update
 
