@@ -5,3 +5,5 @@ server/kubejs
 client/mods/mixed
 client/config
 client/kubejs
+
+output/

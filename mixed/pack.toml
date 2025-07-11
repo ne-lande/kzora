@@ -1,4 +1,4 @@
-name = "kzora-client"
+name = "mixed-kzora"
 author = "nelande"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "334d892b6c847820f916c190906ae7795a2a31832c5f4d11145d31dac501f411"
+hash = "b6c07a7ebea723df8d7a154643ccf0bc6e4b52f66562d18fb5f9e376723944fc"
 
 [versions]
 fabric = "0.16.14"

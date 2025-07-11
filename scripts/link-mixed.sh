@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 CUR_DIR="$(pwd)"
 MIXED="$CUR_DIR/mixed"
