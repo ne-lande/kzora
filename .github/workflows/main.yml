@@ -13,11 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install packwiz
+      - name: Install Go & packwiz
         run: |
-          curl -sLo packwiz.tar.gz https://github.com/packwiz/packwiz/releases/latest/download/packwiz-linux-amd64.tar.gz
-          tar -xzf packwiz.tar.gz
-          sudo mv packwiz /usr/local/bin/
+          sudo apt update && sudo apt install -y golang
+          go install github.com/packwiz/packwiz@latest
+          echo "$HOME/go/bin" >> $GITHUB_PATH
           packwiz version
 
       - name: Run `make update`
