@@ -35,5 +35,4 @@ jobs:
           tag_name: ${{ steps.tag.outputs.tag_name }}
           name: Release ${{ steps.tag.outputs.tag_name }}
           files: output/*
-        env:
-          GITHUB_TOKEN: ${{ secrets.kzora-workflow }}
+          token: ${{ secrets.kzora-workflow }}
