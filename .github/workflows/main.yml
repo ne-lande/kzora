@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      GH_TOKEN: ${{ secrets.kzora-workflow }}  # Personal Access Token с правами repo
+      GH_TOKEN: ${{ secrets.workflow }}  # Personal Access Token с правами repo
 
     steps:
       - name: Checkout
