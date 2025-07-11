@@ -36,15 +36,9 @@ jobs:
         id: tag
         run: echo "TAG=release-$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
 
-      - name: Create Git tag
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git tag $TAG
-          git push origin $TAG
-
       - name: Create GitHub Release
         run: |
           gh release create "$TAG" output/* \
             --title "Release $TAG" \
             --notes "Automated build"
+            --target main
