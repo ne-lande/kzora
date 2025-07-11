@@ -40,5 +40,5 @@ jobs:
         run: |
           gh release create "$TAG" output/* \
             --title "Release $TAG" \
-            --notes "Automated build"
+            --notes "Automated build" \
             --target main
