@@ -1,9 +1,1 @@
-server/mods/mixed
-server/config
-server/kubejs
-
-client/mods/mixed
-client/config
-client/kubejs
-
-output/
+/output/

@@ -1,18 +1,18 @@
-update:
-	(cd mixed/ && packwiz update --all --yes)
-	scripts/link-mixed.sh
+OUTPUT=output/
 
-	(cd client/ && packwiz update --all --yes)
-	(cd server/ && packwiz update --all --yes)
+PACK=packwiz
+CURSEFORGE=curseforge export
+MODRINTH=modrinth export
+UPDATE=update --all --yes
+
+update:
+	$(PAC) $(UPDATE)
 
 build:
-	scripts/link-mixed.sh
-	mkdir output/
-	(cd client/ && packwiz modrinth export && packwiz curseforge export)
-	mv client/kzora-client* output/
-	(cd server/ && packwiz modrinth export && packwiz curseforge export)
-	mv server/kzora-server* output/
+	mkdir -p $(OUTPUT)
+	$(PACK) $(CURSEFORGE)
+	$(PACK) $(MODRINTH)
+	mv kzora* $(OUTPUT)
 
 clean:
-	rm -rf client/mods/mixed/ client/config/ client/kubejs
-	rm -rf server/mods/mixed/ server/config/ server/kubejs
+	rm -rf $(OUTPUT)
