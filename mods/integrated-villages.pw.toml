@@ -4,8 +4,8 @@ side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/o1qh5qIF/versions/fr39Qi6k/integrated_villages-1.1.4%2B1.20.1-fabric.jar"
-hash-format = "sha512"
-hash = "b99dd877b6f21cd281d68bc02cff98f11e92f1e6be17f2f05220baad5acbcb4804b2f7518f3aa366ecd66b6168029ae0300a1f13b079cbccd769dd071e173728"
+hash-format = "sha256"
+hash = "8e934c04d2c5dcdd6f4975f9e4e81df321961250ed1c84268ad1e7c87b7b316e"
 
 [update]
 [update.modrinth]

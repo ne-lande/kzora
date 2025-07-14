@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/bQrcYNc5/versions/l9RkzUWa/emissive-ores-normal-v1.1.5.zip"
-hash-format = "sha512"
-hash = "6801d4b083830e0e8d740aaeaa621f2ab882d32965ccbc257038ac89f75effe3c1e198a149264b8558a90db4d44a42afb8948bad9ed3b82b54b83ec29fa02fd0"
+hash-format = "sha256"
+hash = "f06d2f32fd5382742eebd161ac805e58d339d515259c9e4fd1e3b1754fffe2da"
 
 [update]
 [update.modrinth]

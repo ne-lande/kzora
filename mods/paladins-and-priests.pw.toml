@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/FxXkHaLe/versions/jdQ0FXvF/paladins-1.4.0%2B1.20.1.jar"
-hash-format = "sha512"
-hash = "7b20d6fc68e88cad74371f858ba7c1e796819167fcb443a95cdc15e50c08846177a69a34ec8c287eedd0bd085be5b09686a79301e5079a8983c3422cab7c97e5"
+hash-format = "sha256"
+hash = "645a0db593993864b8b71fa44a0a295a2406d26f1faed473a96fa42cd9fdc879"
 
 [update]
 [update.modrinth]

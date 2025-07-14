@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/BVzZfTc1/versions/WvkMQbYb/entity_texture_features_fabric_1.20.1-6.2.9.jar"
-hash-format = "sha512"
-hash = "56d65ccc56ee45e6a5aeb330bad0e59ddbec47fb3468dad1e42db8952ab70f2fd2eeda1046ff4394ac89e35941261623ee71a7a0e580fffa4f86971f615bbfa8"
+hash-format = "sha256"
+hash = "369d44d81df32c3840974f936ac225036c56b08303c42926200980c271ee6516"
 
 [update]
 [update.modrinth]

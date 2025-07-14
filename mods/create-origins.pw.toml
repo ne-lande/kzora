@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/PnhmwLM0/versions/5ddQZm9q/createorigins-1.4.2%2B1.20.1.jar"
-hash-format = "sha512"
-hash = "e4fc741c4cc1db6b43345daeff437c2a3762c6a30a7ee878528de4845484fbce5162793087c9cad49c628d02aebcc70968dcd934639d0dc49a8018c118875863"
+hash-format = "sha256"
+hash = "9d024ab45efb016983d2cb277d5266cdf1ca36a5ea89c710b7c9c60ea5530734"
 
 [update]
 [update.modrinth]

@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/uLbm7CG6/versions/7g8j3tHH/language-reload-1.7.4%2B1.20.1.jar"
-hash-format = "sha512"
-hash = "0df0c486b02a86e33a29e48615d5379b5824104a9c34ce76d7072c7cb41a5578e2195fc5bd21c8627869f8101f378b97d620632335dc360e784f67e954ab0290"
+hash-format = "sha256"
+hash = "130510ee9f7a890770ee8c84121c76fda597121edcae4cc25b354956f6f17420"
 
 [update]
 [update.modrinth]

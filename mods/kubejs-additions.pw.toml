@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/BZemjxZb/versions/SlqE1dii/kubejsadditions-fabric-4.3.4.jar"
-hash-format = "sha512"
-hash = "52c6a159d97ee6e2e3fbfd4cee3f6902b85d87492e4377fc4080316083bcdb547200b22a166470d024f849835be4101078ccdb664e0ad7ca60ad3b2f1c384ba7"
+hash-format = "sha256"
+hash = "9f626a2af972bc10b20c48f86a2d817ba593949a4913ab2bd7ed0eba8672258f"
 
 [update]
 [update.modrinth]

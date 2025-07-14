@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/eiktJyw1/versions/EUAJoPDa/everycomp-1.20-2.8.12-fabric.jar"
-hash-format = "sha512"
-hash = "78e0ce8bae4b3a11534c2061786ba749ffa0e503c421b42d213ac9b2a6804fef8d8f0ad8ef5e7101dbe02fc68dc2dd7c970d113dbdc2a72cf7dc08ef6a8f0074"
+hash-format = "sha256"
+hash = "edcb7ee6e9badd68a519d8146938e7d64221d261e461994ef43a2a045a055e68"
 
 [update]
 [update.modrinth]

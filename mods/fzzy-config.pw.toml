@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/hYykXjDp/versions/tbpj74o7/fzzy_config-0.7.0%2B1.20.1.jar"
-hash-format = "sha512"
-hash = "d6fbad0e32508fe0f33719610d6c70548e5f4cafc3eb359b93ff58ed3a4346895c8a5fc0b38b739b5ca0cb3512d63a7c453f1a2c325df5928fad3f0992520497"
+hash-format = "sha256"
+hash = "4ebd2516dd680a0f89c3b0d20f949960db4e1668b37f95a0fbf0a9901c80ffdd"
 
 [update]
 [update.modrinth]

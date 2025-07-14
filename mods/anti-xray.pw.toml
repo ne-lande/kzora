@@ -4,8 +4,8 @@ side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/sml2FMaA/versions/6vxHsVZq/antixray-fabric-1.4.6%2B1.20.1.jar"
-hash-format = "sha512"
-hash = "ec46ca0c5c4c10caac1a12983cb675e133f092f8a1bf61567b23c955adc78c98a15921c214f0533718a93217fea796641741d3b476f6115249f9031d59e3aba4"
+hash-format = "sha256"
+hash = "78db3501e25d0ca79e6b48d2802bedc7e16374f350dd5e34d831a31de53e0c53"
 
 [update]
 [update.modrinth]

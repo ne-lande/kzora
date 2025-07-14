@@ -6,7 +6,7 @@ MODRINTH=modrinth export
 UPDATE=update --all --yes
 
 update:
-	$(PAC) $(UPDATE)
+	$(PACK) $(UPDATE)
 
 build:
 	mkdir -p $(OUTPUT)

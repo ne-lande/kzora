@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/uYwn8IP5/versions/Ks4bl4Wc/stonezone-1.20-2.8.10-fabric.jar"
-hash-format = "sha512"
-hash = "db336973be396cc7f687b7678e2f6d95f50f728f3a1596b00b4c0e8cc65dfa0444d906fad218efea88a71357437505d9e8a13272f310bdec9ee8d5a768755495"
+hash-format = "sha256"
+hash = "3a99cfa533454b4a99568322ad05b786fc43cf47f6f5ba4f90b1099e8a78ad27"
 
 [update]
 [update.modrinth]

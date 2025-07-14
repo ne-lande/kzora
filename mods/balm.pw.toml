@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/MBAkmtvl/versions/x05ZVyBJ/balm-fabric-1.20.1-7.3.31.jar"
-hash-format = "sha512"
-hash = "c4cf7008ca7d954ed5fc10b4634e3c45d8a36d5cc0bd846cef580f3e1feb81a4d700b1e5029a154e57443470662a56fcbc842117a2f55947ebc90cd5b081a823"
+hash-format = "sha256"
+hash = "318fc42d8286c77c187ef5bd399deddfc44a2508e7af618b83d67ab7a744c0c0"
 
 [update]
 [update.modrinth]

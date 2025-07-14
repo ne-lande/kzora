@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/k23mNPhZ/versions/ouUaC54p/Aquamirae-6.jar"
-hash-format = "sha512"
-hash = "c047063fb7b54cf107554992a9341470c622c178a89a1135c9204b347034bf9dfc757f09f1f96fcc20852868c0c11fb18ca7151ec0e2b87556f516011b0f59b1"
+hash-format = "sha256"
+hash = "90154fe55679046be1736013b2a495641b18cf27d8c2e56e79ad5e736746c56f"
 
 [update]
 [update.modrinth]

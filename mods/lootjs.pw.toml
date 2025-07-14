@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/fJFETWDN/versions/teWjqlCt/lootjs-fabric-1.20.1-2.13.0.jar"
-hash-format = "sha512"
-hash = "b70d26f1b3bb3f436255f84d5e064c1ed38f7efd4850b91c08e14d08e520ede579e9675902db4112c664fbad9a5e3b6d59bdf0808d63ff30e790e6cc8a951864"
+hash-format = "sha256"
+hash = "660d3bb03a05a25301db0880b6b9c18d2aecb0728db958d4c6a97a48ede28c56"
 
 [update]
 [update.modrinth]
