@@ -514,7 +514,7 @@ hash = "d4f31b4a64b48576959cdfa3d11b515f39a837718e040969fc289f70f4535c66"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "caf4983e608cac117a53e5a17a5e5bf9e00be687170f76c5d9e8c9ae9ec5c7a1"
+hash = "982c8563585e043cc7bea4166bfa342560041c99afd8abb4fc2f4ed2354f31d1"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
