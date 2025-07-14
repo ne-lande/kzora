@@ -5,10 +5,6 @@ file = ".github/workflows/main.yml"
 hash = "8f54ababdfa28d4baf1b20298a9821771fad4c66a72e43b3eeae922a8371702c"
 
 [[files]]
-file = "Makefile"
-hash = "a10255dfcc9c16c4a3141ba71dc490a696f1c934ae8a5d63f3c7c775b047be0e"
-
-[[files]]
 file = "config/CoroUtil/General.toml"
 hash = "69c825a09b540c4dea0de2783e0237f568086415c4dbc96786c1b7d963ec3839"
 
@@ -2230,7 +2226,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/assets/custom/lang/ru_ru.json"
-hash = "28feabc358069621843402b54f53625e2f53b0eee646c4f212b2478e9182040c"
+hash = "57e7502db1688044201a03a2ae28055a88f3dec2d02f7cdb1acee057f3b8f1dc"
 
 [[files]]
 file = "kubejs/assets/custom/textures/gui/no_hunger.png"
@@ -2257,116 +2253,120 @@ file = "kubejs/config/common.properties"
 hash = "c678226e31a8d5eee1d25252a9c5046c0794a2337330ccd963a20101df319b52"
 
 [[files]]
-file = "kubejs/data/custom/origins/chimera.json"
-hash = "856bda888a0243bc6a2aa26ade768dc5d824838e695654eb7afd26ea4008a997"
+file = "kubejs/config/defaultoptions.txt"
+hash = "cc33599e8ed99d45fe960c5f6f25e0a5759c0b828fc9da0296e6417e7c962033"
 
 [[files]]
-file = "kubejs/data/custom/origins/ghost.json"
-hash = "015636bdde1ea9cb3683f251c82b9cf787dfd4d63d5e4e5b7b5fcdea8ba12152"
+file = "kubejs/data/lootr/tags/block/convert/barrels.json"
+hash = "5417608ed35f6954e54ffae726c48994215467e952f636c2421cebd927ac76be"
 
 [[files]]
-file = "kubejs/data/custom/origins/half-blood_ender.json"
-hash = "e911ba91e0f6c9d6e26e551e12927a89dc07834b3a70c37425597517e8760918"
-
-[[files]]
-file = "kubejs/data/custom/origins/hermit.json"
-hash = "24d5e8869e793ce436e35f12c1596ed671b7feac8b31cbf74b773f8e0b330cbf"
-
-[[files]]
-file = "kubejs/data/custom/origins/master.json"
-hash = "c3c81167b5a847670b4d4a387b0e22a5d443342184a1bd7aaae738de90010dd5"
-
-[[files]]
-file = "kubejs/data/custom/origins/mole.json"
-hash = "43bb217de023c0b33f089f2de3e15335f7c30962f31fffec4afe5c8eae5dbb5b"
-
-[[files]]
-file = "kubejs/data/custom/origins/phantom.json"
-hash = "e0dbf53dd92dae996de25c8e942c66b849ac064cb450eac7cf05daa1bc9c4bc4"
-
-[[files]]
-file = "kubejs/data/custom/origins/statue.json"
-hash = "d3204b90fd997bfad7880e1da300e86432ff115e228216fb47ae1885afe8c823"
-
-[[files]]
-file = "kubejs/data/custom/origins/undead.json"
-hash = "e88fd50fb73bbcaab22b868df78170c192930afaf23ef226a2c1ac7fec11a5db"
-
-[[files]]
-file = "kubejs/data/custom/powers/friends_with_ender.json"
-hash = "e8a7439e5e9b47b36566610f85ba96a5bab085a853a2bb9d6beafaae8ac65df8"
-
-[[files]]
-file = "kubejs/data/custom/powers/friends_with_undead.json"
-hash = "fd6462e23e3692c96f71b0cc9c4135e109cf6a106b2c84c78346252e294c2a7f"
-
-[[files]]
-file = "kubejs/data/custom/powers/ghost_overlay.json"
-hash = "ec8f23ed157df4855272c14aa0839085cebe05ef8fc573c2f55be36a940a81ee"
-
-[[files]]
-file = "kubejs/data/custom/powers/ghost_phaze.json"
-hash = "2350c0df9496fb57c1dadf153c29d2c595fe8f4c302c9a05a2513a7889165531"
-
-[[files]]
-file = "kubejs/data/custom/powers/ghost_switch.json"
-hash = "ddfd59f0c947edef10a9dc73249f96f95700d4a27812c8336fae66c493f01cde"
-
-[[files]]
-file = "kubejs/data/custom/powers/invisible_armor.json"
-hash = "77e4577d45e06c53770dcbcba5796ed63c0649af1b6fabd470378a7784895ec3"
-
-[[files]]
-file = "kubejs/data/custom/powers/large.json"
-hash = "7d4ca7a12607d4dd80d60c03cd29adeb112af764bcc6200fab845a585ee9ebc1"
-
-[[files]]
-file = "kubejs/data/custom/powers/no_hunger.json"
-hash = "7df2f08eab335aa313ebb62cb12eef34c0a045636548f21878a6f01ede3d7a5a"
-
-[[files]]
-file = "kubejs/data/custom/powers/outdoorsman.json"
-hash = "f93ce69df0dc45ae69e3fcb47ff9e4c70b0e6d85ae4984d00918e9d5039635e8"
-
-[[files]]
-file = "kubejs/data/custom/powers/phantom_model.json"
-hash = "05e7a60c293ed7094164d60773faf482c16dfa1f18d7e9c2f8447b75283f4d7a"
-
-[[files]]
-file = "kubejs/data/custom/powers/phantom_overlay.json"
-hash = "1e90d6c62552221cac79e4c3fa137a2ea8592fb8ae760e327c016a67d9b6577f"
-
-[[files]]
-file = "kubejs/data/custom/powers/phantom_phaze.json"
-hash = "902ad85b681a29fb2d4a1b36f259c6f847685a8daa140321691d52895324675d"
-
-[[files]]
-file = "kubejs/data/custom/powers/phantom_switch.json"
-hash = "3df048272b7fbfa1634f2052ff4439c0e1538531ee833f30046ae90d6fe36cb5"
-
-[[files]]
-file = "kubejs/data/custom/powers/smoll.json"
-hash = "e9198ce8a9e98dedc2e37c6b55a36003fd4e181e08d282e2660a68463520fa72"
-
-[[files]]
-file = "kubejs/data/custom/powers/throw_ender_pearl.json"
-hash = "81fc4ae8ee1772f69acaa23af18084548aed626ad0fd06618fb72652748bac46"
-
-[[files]]
-file = "kubejs/data/custom/powers/water_breathing.json"
-hash = "ebc18a222c5522b555034c4b3a3fe3ba74a9545fd6dc5f03306ea58d0ed62cb7"
-
-[[files]]
-file = "kubejs/data/lootr/tags/block/convert/lootr_fixes.json"
-hash = "e284e36e0ce2db3e012d2601f33b874a7cbe1482cfa5469ad77da32a0c3b34e5"
-
-[[files]]
-file = "kubejs/data/no_advancements/pack.mcmeta"
-hash = "977fae9022971c83d86567cf80cd5c32d6fae84344cf5fc2da4a67b861c97b2e"
+file = "kubejs/data/lootr/tags/block/convert/chests.json"
+hash = "76565ddcd6dea0b4eff6aa7c1b2ac40b8def93161abc68c158a803731f5e36ec"
 
 [[files]]
 file = "kubejs/data/origins/origin_layers/origin.json"
-hash = "19cb0cd7f8184dd303925f65ddd9e55637e3b1bd989d0776b13d0feb0532fe6b"
+hash = "760856a7d4a131470d30c2dd5b50d27a8c8bf21e02bc103b7da69a97332ce71e"
+
+[[files]]
+file = "kubejs/data/origins/origins/chimera.json"
+hash = "856bda888a0243bc6a2aa26ade768dc5d824838e695654eb7afd26ea4008a997"
+
+[[files]]
+file = "kubejs/data/origins/origins/ghost.json"
+hash = "95b6594475cce0c6a74d403716ba2374e604f89fa535d5fb63786f3d466bb973"
+
+[[files]]
+file = "kubejs/data/origins/origins/half-blood_ender.json"
+hash = "63f4498549999cee9b361f9c9e85969d5a227bdf12e28a43d338440f79130c8d"
+
+[[files]]
+file = "kubejs/data/origins/origins/hermit.json"
+hash = "56ea44e997405167a5cc48a2ca58b7f49d4aef9294f8ed093dc54bd6550fb87c"
+
+[[files]]
+file = "kubejs/data/origins/origins/master.json"
+hash = "c3c81167b5a847670b4d4a387b0e22a5d443342184a1bd7aaae738de90010dd5"
+
+[[files]]
+file = "kubejs/data/origins/origins/mole.json"
+hash = "43bb217de023c0b33f089f2de3e15335f7c30962f31fffec4afe5c8eae5dbb5b"
+
+[[files]]
+file = "kubejs/data/origins/origins/phantom.json"
+hash = "0829430a0a2c5169da19c69ea4a04d1be756aa05cb899148a38155fee7b77413"
+
+[[files]]
+file = "kubejs/data/origins/origins/statue.json"
+hash = "ea61ea5927c732a117783f625f32df66e12b31b24a6e79e2bde6886209a778f5"
+
+[[files]]
+file = "kubejs/data/origins/origins/undead.json"
+hash = "383e6d33c4e0fbdc787e6a3591454fc07fc5a49d137cdb1ac960ebc14b283c17"
+
+[[files]]
+file = "kubejs/data/origins/powers/friends_with_ender.json"
+hash = "e8a7439e5e9b47b36566610f85ba96a5bab085a853a2bb9d6beafaae8ac65df8"
+
+[[files]]
+file = "kubejs/data/origins/powers/friends_with_undead.json"
+hash = "fd6462e23e3692c96f71b0cc9c4135e109cf6a106b2c84c78346252e294c2a7f"
+
+[[files]]
+file = "kubejs/data/origins/powers/ghost_overlay.json"
+hash = "73b8fd32af65563146d406f34c0116e5b8b9ee4f162c7ff32970657ee502f488"
+
+[[files]]
+file = "kubejs/data/origins/powers/ghost_phaze.json"
+hash = "a406aaeb929a6266f136ea848ce95a602077f08285f4371ff8a92111a95c2457"
+
+[[files]]
+file = "kubejs/data/origins/powers/ghost_switch.json"
+hash = "ddfd59f0c947edef10a9dc73249f96f95700d4a27812c8336fae66c493f01cde"
+
+[[files]]
+file = "kubejs/data/origins/powers/invisible_armor.json"
+hash = "77e4577d45e06c53770dcbcba5796ed63c0649af1b6fabd470378a7784895ec3"
+
+[[files]]
+file = "kubejs/data/origins/powers/large.json"
+hash = "7d4ca7a12607d4dd80d60c03cd29adeb112af764bcc6200fab845a585ee9ebc1"
+
+[[files]]
+file = "kubejs/data/origins/powers/no_hunger.json"
+hash = "7df2f08eab335aa313ebb62cb12eef34c0a045636548f21878a6f01ede3d7a5a"
+
+[[files]]
+file = "kubejs/data/origins/powers/outdoorsman.json"
+hash = "f93ce69df0dc45ae69e3fcb47ff9e4c70b0e6d85ae4984d00918e9d5039635e8"
+
+[[files]]
+file = "kubejs/data/origins/powers/phantom_model.json"
+hash = "83f9cf577f395a63d1364851cb632826426cf693c5d669e7aa31bfee00edabd3"
+
+[[files]]
+file = "kubejs/data/origins/powers/phantom_overlay.json"
+hash = "a86088c2240442e0b1edfef89454314259787407d2d70cb89bd34607941ff3eb"
+
+[[files]]
+file = "kubejs/data/origins/powers/phantom_phaze.json"
+hash = "61eb28de557653868f01f791ece6e6698a03f60f352e14ea1301f839bb9a5b43"
+
+[[files]]
+file = "kubejs/data/origins/powers/phantom_switch.json"
+hash = "3df048272b7fbfa1634f2052ff4439c0e1538531ee833f30046ae90d6fe36cb5"
+
+[[files]]
+file = "kubejs/data/origins/powers/smoll.json"
+hash = "e9198ce8a9e98dedc2e37c6b55a36003fd4e181e08d282e2660a68463520fa72"
+
+[[files]]
+file = "kubejs/data/origins/powers/throw_ender_pearl.json"
+hash = "81fc4ae8ee1772f69acaa23af18084548aed626ad0fd06618fb72652748bac46"
+
+[[files]]
+file = "kubejs/data/origins/powers/water_breathing.json"
+hash = "ebc18a222c5522b555034c4b3a3fe3ba74a9545fd6dc5f03306ea58d0ed62cb7"
 
 [[files]]
 file = "kubejs/server_scripts/classes_utilities.js"
@@ -2374,7 +2374,7 @@ hash = "e15be9e84fefdf997cd5115025a4ec4f224c2d0dd9c95583667bcef5a0c21c29"
 
 [[files]]
 file = "kubejs/server_scripts/deleter.js"
-hash = "500dff5fe02e5171fc00e33043fa31a5c87900d35bcf2c8f9288f78a6a592024"
+hash = "b054649b010df1ce0bbbc66b1ce7f4213f2f0b1dd1eed6a350a0fe7dd101d87e"
 
 [[files]]
 file = "kubejs/server_scripts/dimension_block.js"
@@ -2391,6 +2391,11 @@ hash = "df4c18c57b38adb1f0d9adb662592fbb08a0119de89ffa4f4d121bdbe97c4205"
 [[files]]
 file = "kubejs/startup_scripts/example.js"
 hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+
+[[files]]
+file = "mods/advancementjs.pw.toml"
+hash = "e67015f6773501bf0d20191f4bb8ef417e57bec8a2907684a1ae0b977a175e97"
+metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
@@ -2424,7 +2429,7 @@ metafile = true
 
 [[files]]
 file = "mods/athena-mod.pw.toml"
-hash = "064b0019e4f545599e5af2a4f74f11777086fce18e68f0b93dd77136ce7c0193"
+hash = "08b82b3fa50692b388e1fde41fd5459fbc22ad8b1eb7881ec058cc12471b1a5f"
 metafile = true
 
 [[files]]
@@ -3133,13 +3138,24 @@ hash = "ee82cbe924b56d5babc4c3df7ab36ea440587571980ad8638ba9747f8e950977"
 metafile = true
 
 [[files]]
+file = "resourcepacks/emissive-ores.pw.toml"
+hash = "9f5d4f504abd5ea2be8c7e60273644be3d2706a3c5e7ad01853445f00e3e31b9"
+metafile = true
+
+[[files]]
+file = "resourcepacks/low-on-fire.pw.toml"
+hash = "98520d370f14406836b850e9ca58debe0b5e25475279d7f2a46b1c3151b222a8"
+metafile = true
+
+[[files]]
+file = "resourcepacks/translations-for-sodium.pw.toml"
+hash = "4168044fa7ac6b57f3c663c96cdbe5bc1058b20b569ca6faaa05fb2fe2f0188a"
+metafile = true
+
+[[files]]
 file = "scripts/heracles-sub.sh"
 hash = "90ce24e364934e308a31a17a5fe54b5926be6f2c523dd51c79e403f6188061df"
 
 [[files]]
 file = "scripts/heracles-to-lang.sh"
 hash = "31fd4d79d2c44a6e3606176a50528daf27802276616d6c73594a67e4dbc14908"
-
-[[files]]
-file = "shell.nix"
-hash = "929ecc445e0cc3f91e4ad215a4f3562fc6496314dd6bff3551c605c12f87351f"

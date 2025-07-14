@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins:ghost_switch",
+    "origins:ghost_phaze",
+    "origins:ghost_overlay",
+    "origins:invisible_armor"
+  ],
+  "icon": "minecraft:glass",
+  "impact": 1
+}

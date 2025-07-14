@@ -3,6 +3,6 @@
   "render_armor": false,
   "condition": {
     "type": "origins:power_active",
-    "power": "custom:ghost_switch"
+    "power": "origins:ghost_switch"
   }
 }

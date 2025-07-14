@@ -5,7 +5,7 @@
     "alpha": 0.5,
     "condition": {
       "type": "origins:power_active",
-      "power": "custom:phantom_switch"
+      "power": "origins:phantom_switch"
     }
   },
   "invisible_armor": {
@@ -13,7 +13,7 @@
     "features": ["armor"],
     "condition": {
       "type": "origins:power_active",
-      "power": "custom:phantom_switch"
+      "power": "origins:phantom_switch"
     }
   }
 }

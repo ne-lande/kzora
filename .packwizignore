@@ -1,2 +1,4 @@
 /README.md
 /output/
+/Makefile
+/shell.nix

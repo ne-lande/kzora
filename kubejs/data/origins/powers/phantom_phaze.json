@@ -20,6 +20,6 @@
   },
   "condition": {
     "type": "origins:power_active",
-    "power": "custom:phantom_switch"
+    "power": "origins:phantom_switch"
   }
 }

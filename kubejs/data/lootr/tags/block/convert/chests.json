@@ -45,47 +45,43 @@
       "required": false
     },
     {
-      "id": "betternether:nether_reed_barrel",
+      "id": "better_end:mossy_glowshroom_chest",
       "required": false
     },
     {
-      "id": "betternether:stalagnate_barrel",
+      "id": "better_end:end_lotus_chest",
       "required": false
     },
     {
-      "id": "betternether:willow_barrel",
+      "id": "better_end:pythadendron_chest",
       "required": false
     },
     {
-      "id": "betternether:wart_barrel",
+      "id": "better_end:lacugrove_chest",
       "required": false
     },
     {
-      "id": "betternether:warped_barrel",
+      "id": "better_end:dragon_tree_chest",
       "required": false
     },
     {
-      "id": "betternether:crimson_barrel",
+      "id": "better_end:tenanea_chest",
       "required": false
     },
     {
-      "id": "betternether:rubeus_barrel",
+      "id": "better_end:helix_tree_chest",
       "required": false
     },
     {
-      "id": "betternether:mushroom_fir_barrel",
+      "id": "better_end:umbrella_tree_chest",
       "required": false
     },
     {
-      "id": "betternether:nether_mushroom_barrel",
+      "id": "better_end:jellyshroom_chest",
       "required": false
     },
     {
-      "id": "betternether:anchor_tree_barrel",
-      "required": false
-    },
-    {
-      "id": "betternether:nether_sakura_barrel",
+      "id": "better_end:lucernia_chest",
       "required": false
     }
   ]

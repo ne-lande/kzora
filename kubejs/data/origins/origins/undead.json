@@ -1,0 +1,9 @@
+{
+  "powers": [
+    "origins:friends_with_undead",
+    "origins:no_hunger",
+    "origins:water_breathing"
+  ],
+  "icon": "minecraft:stone",
+  "impact": 1
+}

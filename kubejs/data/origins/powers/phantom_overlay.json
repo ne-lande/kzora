@@ -18,7 +18,7 @@
       "conditions": [
         {
           "type": "apoli:power_active",
-          "power": "custom:phantom_switch"
+          "power": "origins:phantom_switch"
         },
         {
           "type": "apoli:food_level",
@@ -45,7 +45,7 @@
       "conditions": [
         {
           "type": "apoli:power_active",
-          "power": "custom:phantom_switch"
+          "power": "origins:phantom_switch"
         },
         {
           "type": "apoli:food_level",
@@ -77,7 +77,7 @@
       "conditions": [
         {
           "type": "apoli:power_active",
-          "power": "custom:phantom_switch"
+          "power": "origins:phantom_switch"
         },
         {
           "type": "apoli:food_level",

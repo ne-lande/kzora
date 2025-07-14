@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins:phantom_switch",
+    "origins:phantom_phaze",
+    "origins:phantom_model",
+    "origins:phantom_overlay"
+  ],
+  "icon": "minecraft:phantom_membrane",
+  "impact": 1
+}

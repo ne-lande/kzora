@@ -31,3 +31,7 @@ ServerEvents.tags("item", (event) => {
     event.removeAllTagsFrom(item);
   });
 });
+
+AdvJSEvents.advancement(event => {
+    event.removeAll()
+});

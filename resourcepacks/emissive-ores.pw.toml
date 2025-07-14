@@ -1,0 +1,13 @@
+name = "Emissive Ores"
+filename = "emissive-ores-normal-v1.1.5.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/bQrcYNc5/versions/l9RkzUWa/emissive-ores-normal-v1.1.5.zip"
+hash-format = "sha512"
+hash = "6801d4b083830e0e8d740aaeaa621f2ab882d32965ccbc257038ac89f75effe3c1e198a149264b8558a90db4d44a42afb8948bad9ed3b82b54b83ec29fa02fd0"
+
+[update]
+[update.modrinth]
+mod-id = "bQrcYNc5"
+version = "l9RkzUWa"
