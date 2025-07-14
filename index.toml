@@ -501,6 +501,50 @@ file = "config/fabric/indigo-renderer.properties"
 hash = "c334bf524fc8b7b709a641a6d0d1be7d03d04837ccc38b2bdd611e336ffa7fac"
 
 [[files]]
+file = "config/fancymenu/assets/standard.gif"
+hash = "35f444d9fa9073719ff44a3df6851b3430678a23d25538fcb79ac8d712f2b9ca"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "d4f31b4a64b48576959cdfa3d11b515f39a837718e040969fc289f70f4535c66"
+
+[[files]]
+file = "config/fancymenu/customization/pause_screen_layout.txt"
+hash = "caf4983e608cac117a53e5a17a5e5bf9e00be687170f76c5d9e8c9ae9ec5c7a1"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "3eebfde55260aa840185b99e3dad10dc87dae5d1dcfdc6593ff2a7f53247a05a"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "45541e5c5019585b9c4ff114aed530826129e8a7ac6866b5d5fe41dd278abae4"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "6954379d658fdf496f162792a3244f0f08635858ed4b0553a718a7ef63b8a620"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
+file = "config/fancymenu/video_element_controller_metas.json"
+hash = "0ab49f0209466b06d58399668cc13629c4e25388b124ccf1cc3e43c00f8f3a2e"
+
+[[files]]
 file = "config/farmersdelight-client.toml"
 hash = "13a11f20b305f6f975ebc35802d87c7bf22a04dc79464e41089823603b76a227"
 
@@ -2488,6 +2532,11 @@ hash = "004f9f05916634d0ad711d772f05faf4856cececee2c825f1a9d4d609ecfb11e"
 metafile = true
 
 [[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "64a244469b7ce7be7e6ceabedd69d17e573a0b92d6e29c661fc6c490afa965d8"
+metafile = true
+
+[[files]]
 file = "mods/cardinal-components-api.pw.toml"
 hash = "9d7ee436b0dee2399c94de0fab10989493687f1e9962bee8303a70df65bd1e7e"
 metafile = true
@@ -2500,16 +2549,6 @@ metafile = true
 [[files]]
 file = "mods/chipped.pw.toml"
 hash = "6a9e75ca01b31834e73f85d8bdc08e7f391e81d488d9e43552f5722c55d738f6"
-metafile = true
-
-[[files]]
-file = "mods/chunky.pw.toml"
-hash = "69b621472e07a0fff7c6274b828f8003f82fa93c21240906c6d8858a52b6d1bf"
-metafile = true
-
-[[files]]
-file = "mods/chunkyborder.pw.toml"
-hash = "29717a0cbeb98fbf4368fb9affcbf035ae1cbc02548258ecbb219efdce78871b"
 metafile = true
 
 [[files]]
@@ -2958,11 +2997,6 @@ hash = "a94bedf7505ddaee2835f0941f848da100e3e1ffbbe057d5337753a798ede0d7"
 metafile = true
 
 [[files]]
-file = "mods/replaymod.pw.toml"
-hash = "8ddb3b132958297d55de23a2a783e14d2bb928c0e2ad21b259473c1fde0836f6"
-metafile = true
-
-[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "6650ad633fcf6230cb490519a0e14cfb2a5e6fe9ffc89b041daf3928f47a0fca"
 metafile = true
@@ -3035,6 +3069,11 @@ metafile = true
 [[files]]
 file = "mods/spell-power.pw.toml"
 hash = "87d31390f4d5e5b6185ee9be20b86137e39c3431c5456cacb8142b0a8f3b1164"
+metafile = true
+
+[[files]]
+file = "mods/starlight.pw.toml"
+hash = "98553c2d49ef3a888954f24b7c49fe3442c01fd4fc1f1ed52c5898ed29d29d3b"
 metafile = true
 
 [[files]]
