@@ -2,6 +2,4 @@
 enable_debugging = false
 
 # enable_jar_verification checks installed jar files against mod reposting websites, default  = true
-enable_jar_verification = true
-
-
+enable_jar_verification = false

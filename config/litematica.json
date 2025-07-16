@@ -65,7 +65,7 @@
     "commandNameSetblock": "setblock",
     "commandNameSummon": "summon",
     "commandTaskInterval": 1,
-    "customSchematicBaseDirectory": "/home/nelande/.local/share/PrismLauncher/instances/1.20.1/minecraft/schematics",
+    "customSchematicBaseDirectory": "",
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
     "toolItem": "minecraft:arrow"

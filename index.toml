@@ -90,7 +90,7 @@ hash = "66a151dbf2123ba09e0ec7c3aade37066dc98c153b692b20df7844c5a44c60b3"
 
 [[files]]
 file = "config/bclib/client.json"
-hash = "962f735ce44b71b79e9ef0d410f22dce370210511ad72d899b22fe26067f2cb0"
+hash = "badf7a576a843013b87c7379c9b3457fb97e1058cc7cb153b813418ba783cce6"
 
 [[files]]
 file = "config/bclib/generator.json"
@@ -102,7 +102,7 @@ hash = "6c374c2361f59dbbace6322200613773ec01d5fb6e8fb70ac5d89463e3631f05"
 
 [[files]]
 file = "config/bclib/server.json"
-hash = "a747a0bb0548ef3b677671e5e60ac931bb2a45c212bfdb9a8b180cddb068ee87"
+hash = "7f286cddeb0bceb5c18c8fca9e2ac6ff5e5b6afbddad6db25c176202aa0bb1c6"
 
 [[files]]
 file = "config/bettercombat/client.json5"
@@ -233,10 +233,6 @@ file = "config/betterpingdisplay.json"
 hash = "d9b413555ca6e7add44924c507e5ec5dc8db060f9b04fdfefcd505e61faec0e0"
 
 [[files]]
-file = "config/betterstats.json"
-hash = "5f530453f83039fc79d33591a8207b9dbb85b170a7884250d506f6f0ec116502"
-
-[[files]]
 file = "config/betterstrongholds-fabric-1_20.toml"
 hash = "2dae469f9196a363cb5e9fb614788224a713378f22300a1afd6486f1d43766a2"
 
@@ -265,18 +261,6 @@ file = "config/betterstrongholds/fabric-1_20/rareblocks.json"
 hash = "5ad74727bfbd607151d1d930d6fb4e9b260b2e606c9d483403123ade0e82137a"
 
 [[files]]
-file = "config/betterthirdperson.json5"
-hash = "151cb9f1ab722aa7026701e482e77cb13eeef2ce7c77cfbac997f719a81b1dbb"
-
-[[files]]
-file = "config/bettertridents-common.toml"
-hash = "20a506004a9f670edbbb54c057b126eee65e4b17d19167b6c276515e850b752f"
-
-[[files]]
-file = "config/bettertridents-server.toml"
-hash = "5531284bb3d31bfd2f820d12a88f73458e30d4e202e20d119e2b71668acf872b"
-
-[[files]]
 file = "config/betterwitchhuts-fabric-1_20.toml"
 hash = "063ce4f60934ab166dade45375ef5518df74be2c6c1e1f1a52ec181013803197"
 
@@ -299,18 +283,6 @@ hash = "f7e7f346e0724cf9cfb77f44dec2e7d202ea2507729ec7b95ee6a8f089c82982"
 [[files]]
 file = "config/chat_heads.json5"
 hash = "f0ccf41010759fae2c4051fd5f77a287ef53a1033910e0523932a1c3de79388c"
-
-[[files]]
-file = "config/chunky/config.json"
-hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
-
-[[files]]
-file = "config/chunkyborder/borders.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "config/chunkyborder/config.json"
-hash = "7374422376d4276101600b505d184615afa3414a07c0f6dbc7b6beb3e688f89c"
 
 [[files]]
 file = "config/collective.json5"
@@ -347,10 +319,6 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 [[files]]
 file = "config/createbigcannons-server.toml"
 hash = "93bbe03b397ef285cd18a78c74f1442fb3b0c4b840f38d1cdd77dd3e148adf45"
-
-[[files]]
-file = "config/cubes-without-borders.json"
-hash = "33b7dbcc2cc857ba38929066963de5c0fdeadd7394222f1dabd444e9c7e33d8f"
 
 [[files]]
 file = "config/danger_close-common.toml"
@@ -415,18 +383,6 @@ hash = "c6fd89523c519f311c62a96263d5bd7d316d76cb546d886504b7450405150ed8"
 [[files]]
 file = "config/death_knights/spells/unholy/plagues.json5"
 hash = "c585a13f47d0eaee0db56821969999be4ed006870ef18208797bea858f0ee51d"
-
-[[files]]
-file = "config/defaultoptions-common.toml"
-hash = "a186d6ab6468353cb2a49f5a4229c16b004580a557d4bccaf12041e8a46f9d9e"
-
-[[files]]
-file = "config/do_a_barrel_roll-client.json"
-hash = "ee32faf303d3beaff76ee54091bc95788048046b6e948ea7795d1eb34f365607"
-
-[[files]]
-file = "config/do_a_barrel_roll-server.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/dungeonnowloading-client.toml"
@@ -1945,10 +1901,6 @@ file = "config/necronomicon.json5"
 hash = "f97fc5ae7dd7d312e86ecddf2e4491fee3e3a16b7a26cbb3aa078fdd3255c4df"
 
 [[files]]
-file = "config/nerb.yaml"
-hash = "dceda831a1a2585df3fb5f3baae348eb43a7179ced0609a8a47869dfb0243d71"
-
-[[files]]
 file = "config/nethermap.toml"
 hash = "8f9f18b6638047bfcc51fe467cb198ac4d95d8920cbd12d2121765274a1eee70"
 
@@ -2011,10 +1963,6 @@ hash = "7c9836cd8ee74f2a3e91a5d9fe2ab95716bfb6713fbde3f60ee5248c84fc3c26"
 [[files]]
 file = "config/power_config.json5"
 hash = "4a0492a46ebe8c5870fccbd5451cfff5a6557779ae34270e33620024b0896245"
-
-[[files]]
-file = "config/replaymod.json"
-hash = "30c953e4a631b33a1a26b409a4bca5e6aac9567cd175e97dd494e98e847e46d2"
 
 [[files]]
 file = "config/ritchiesprojectilelib-server.toml"
@@ -2159,10 +2107,6 @@ hash = "f383c3e9999b589c5a8d31acd654ec9b40fc1bc4cb02be26f2c1549f3cfa893e"
 [[files]]
 file = "config/terrablender.toml"
 hash = "999e6b48e6c9953bbba750ddac02ad61caeeb9b5ca21fbea7c7115bac4b69be3"
-
-[[files]]
-file = "config/thinair-common.toml"
-hash = "e3952fd247117c859b66762182027097d27ae30d2a768875a23bad3cace91480"
 
 [[files]]
 file = "config/universal-graves/config.json"
