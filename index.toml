@@ -2029,6 +2029,38 @@ file = "config/zoomify.json"
 hash = "ee00b7a305455f73995e21952e0f18d8d7ff1ff071b0c9778c2c70674f22a339"
 
 [[files]]
+file = "data/.fabric-manifest.json"
+hash = "f7e33f8cbfe15202ed49bde7e031755733a016f12ea2ba009cf5d9d93e7850bf"
+
+[[files]]
+file = "data/.install-fabric.env"
+hash = "bf20d03d3981ab236f3cf228e54fcc270374499e800d41a0439c794a55a705e8"
+
+[[files]]
+file = "data/.maven/maven.packwiz.infra.link-link.infra.packwiz-packwiz-installer.xml"
+hash = "07655d0c38744d77ea62d247199d9b39a35ee03358be99adbcdccd03016c1206"
+
+[[files]]
+file = "data/.rcon-cli.env"
+hash = "a80f764ccd69fd9b08ab3f1a33f8f3e2cccf891616fd78dde4474672e03d6156"
+
+[[files]]
+file = "data/.rcon-cli.yaml"
+hash = "2bdbd087ae11287b9cb27da9caffc519b539835c444e8b10d4b8dae571fc15a1"
+
+[[files]]
+file = "data/eula.txt"
+hash = "fedfab3cbe531d1ab7060e90d1416fe09a7a1ad46a241785077237ba082d4f1a"
+
+[[files]]
+file = "data/fabric-server-mc.1.20.1-loader.0.16.14-launcher.1.0.3.jar"
+hash = "8f34ac4ebd5749bad6e60b0068f063783c9b354b9e8a44be85cf34e8588fa4eb"
+
+[[files]]
+file = "data/packwiz-installer-v0.5.14-dist.jar"
+hash = "c9f646908d340d84773948a9a7d98bc1dae250d35e1016dc6e2b8459760b5598"
+
+[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
@@ -2812,11 +2844,6 @@ metafile = true
 [[files]]
 file = "mods/skinrestorer.pw.toml"
 hash = "3ed546873e66f8343ac83fd378831f892271cae945872443ffaaee8e8e2b5861"
-metafile = true
-
-[[files]]
-file = "mods/skinshuffle.pw.toml"
-hash = "b1dd6ac8ea2df432d01c0c2f93634f96d5e7b15439c41f0d8b050bca8714bace"
 metafile = true
 
 [[files]]

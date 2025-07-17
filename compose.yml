@@ -15,14 +15,13 @@ services:
       ONLINE_MODE: "false"
       USE_AIKAR_FLAGS: "true"
       DIFFICULTY: "3"
-      MEMORY: "8192M"
+      MEMORY: "4096M" # 8192M
       FORCE_GAMEMODE: "true"
       SPAWN_PROTECTION: "0"
       MAX_WORLD_SIZE: "50000"
       MAX_CHAINED_NEIGHBOR_UPDATES: "10000"
       REGION_FILE_COMPRESSION: "lz4"
-      PACKWIZ_URL: "https://raw.githubusercontent.com/ne-lande/kzora/refs/heads/main/\
-        pack.toml"
+      PACKWIZ_URL: "https://raw.githubusercontent.com/ne-lande/kzora/refs/heads/dev/pack.toml"
       ENFORCE_SECURE_PROFILE: "false"
       JVM_DD_OPTS: "fml.readTimeout=2000"
       ALLOW_FLIGHT: "true"
