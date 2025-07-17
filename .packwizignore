@@ -3,3 +3,4 @@
 /Makefile
 /shell.nix
 /compose.yml
+/data
