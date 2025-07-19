@@ -46,7 +46,7 @@
 	   | DIRECT HEALING | ✅        | ✅            | ✅       | 🚫       | ✅    |
 	   | AREA HEALING   | ✅        | ✅            | 🚫       | 🚫       | ✅    |
 	   +----------------+-----------+---------------+----------+----------+--------+
-	   
+
 	   The various relation related configs are being checked in the following order:
 	   - `player_relations`
 	   - `player_relation_to_passives`
@@ -55,15 +55,14 @@
 	   (The first relation to be found for the target will be applied.)
 	*/
 	"player_relations": {
-		"minecraft:player": "SEMI_FRIENDLY",
+		"minecraft:player": "MIXED",
 		"minecraft:villager": "SEMI_FRIENDLY",
-		"minecraft:iron_golem": "NEUTRAL",
-		"guardvillagers:guard": "SEMI_FRIENDLY"
+		"minecraft:iron_golem": "NEUTRAL"
 	},
 	// Relation to unspecified entities those are instance of PassiveEntity(Yarn)
-	"player_relation_to_passives": "HOSTILE",
+	"player_relation_to_passives": "MIXED",
 	// Relation to unspecified entities those are instance of HostileEntity(Yarn)
 	"player_relation_to_hostiles": "HOSTILE",
 	// Fallback relation
-	"player_relation_to_other": "HOSTILE"
+	"player_relation_to_other": "MIXED"
 }

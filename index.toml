@@ -1910,7 +1910,7 @@ hash = "0b5bdb344e4a4f804a7ff5a7d2ebad5d59f98ddd2aa4d5bc810cfc8feceb473b"
 
 [[files]]
 file = "config/spell_engine/server.json5"
-hash = "74b725d6ca4f0b3b5309a175374242331dedfca7976bbf686b002f72567d2aeb"
+hash = "31631ab2429309df86e01e53499f338a30a28c58eb4ad0386999f59d509846bd"
 
 [[files]]
 file = "config/spell_power/attributes.json"
@@ -2451,7 +2451,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "307ba8ce727eadac71df8ac31001304451197def74aedb4b940d34ac50282e50"
+hash = "477791eac96a9e29ef1bf32b5baf1ac48d9d1c03cdb88999b0b37774611bbeb7"
 metafile = true
 
 [[files]]
@@ -2491,7 +2491,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "a66f4d279c941f31c5b2e2383b19fa52127e3f25001c8ed6d53c5a9cf4cd84e7"
+hash = "791ac009a9a44b6d19c232b0c563bf08439b8ead9ba39ee65eda2e4e5127f78e"
 metafile = true
 
 [[files]]
@@ -2695,6 +2695,11 @@ hash = "6bd51ee1da97d83cd08839cdeb224e161bba775f26c2a86e2143d10f0c21716b"
 metafile = true
 
 [[files]]
+file = "mods/nedologin.pw.toml"
+hash = "9a834af9dfe14c731d77b5a60072d1a92a6c89346d44c24af341a88ebc64500e"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "8306c030be24c3df8edc4635307a34bc193267881f7c794000cf2fe7d6860d48"
 metafile = true
@@ -2802,6 +2807,11 @@ metafile = true
 [[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "5f0d1b55a289eec2808a1539dd6d4a40e4395cd2a6d66b7e04a5861be6f056ef"
+metafile = true
+
+[[files]]
+file = "mods/skinrestorer.pw.toml"
+hash = "3ed546873e66f8343ac83fd378831f892271cae945872443ffaaee8e8e2b5861"
 metafile = true
 
 [[files]]
